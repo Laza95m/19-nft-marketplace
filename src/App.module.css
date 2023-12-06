@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Work+Sans:wght@400;600&display=swap');
+
+:root {
+  --background: #2b2b2b;
+  --white: #ffffff;
+  --call-to-Action: #a259ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Work Sans;
+}
+
+body {
+  background: var(--background);
+}

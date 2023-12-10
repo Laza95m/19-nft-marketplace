@@ -1,6 +1,7 @@
 import s from './Header.module.css';
-import Links from './Links/Links';
+import BurgerMenu from './BurgerMenu/BurgerMenu';
 import Logo from './Logo/Logo';
+import NavLinks from './NavLinks/NavLinks';
 
 const Header = () => {
   return (
@@ -8,7 +9,8 @@ const Header = () => {
       <header className={s.header}>
         <nav className={s.nav}>
           <Logo />
-          <Links />
+          <NavLinks />
+          <BurgerMenu />
         </nav>
       </header>
     </>

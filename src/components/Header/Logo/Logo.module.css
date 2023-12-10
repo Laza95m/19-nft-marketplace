@@ -14,7 +14,22 @@
   gap: 12px;
 }
 
-.logo {
+.logo_text {
   margin-top: 6px;
   height: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo {
+    width: 24px;
+  }
+
+  .logo_text {
+    margin-top: 4px;
+    width: 150px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
 }

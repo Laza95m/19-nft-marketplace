@@ -1,8 +1,8 @@
+import s from './NavLinks.module.css';
 import { Link } from 'react-router-dom';
-import s from './Links.module.css';
 import { myContext } from '../../../context/Context';
 
-const Links = () => {
+const NavLinks = () => {
   const { links } = myContext();
 
   return (
@@ -24,4 +24,4 @@ const Links = () => {
   );
 };
 
-export default Links;
+export default NavLinks;

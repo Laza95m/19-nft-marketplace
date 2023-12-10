@@ -1,8 +1,21 @@
 .header {
-  margin: 20px 50px;
+  position: sticky;
+  padding: 20px 50px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 15px 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 15px 30px;
+  }
 }

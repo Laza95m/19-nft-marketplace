@@ -29,3 +29,9 @@
   background: var(--call-to-Action);
   padding: 20px 30px !important;
 }
+
+@media screen and (max-width: 1000px) {
+  .block {
+    display: none;
+  }
+}

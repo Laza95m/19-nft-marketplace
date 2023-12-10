@@ -7,11 +7,14 @@ const Logo = () => {
       <ul className={s.block}>
         <li>
           <Link className={s.box} to={'/home'}>
-            <img src="/storefront_logo.svg" alt="storefront_logo_broken" />
+            <img
+              src="/header/storefront_logo.svg"
+              alt="storefront_logo_broken"
+            />
             <img
               className={s.logo}
-              src="/nft_marketplace_text.svg"
-              alt="nft_marketplace_text_broken"
+              src="/header/nft_marketplace.svg"
+              alt="nft_marketplace_broken"
             />
           </Link>
         </li>

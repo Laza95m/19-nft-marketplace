@@ -6,7 +6,7 @@ const Logo = () => {
     <>
       <ul className={s.block}>
         <li>
-          <Link className={s.box} to={'/home'}>
+          <Link className={s.box} to={'/'}>
             <img
               className={s.logo}
               src="/header/storefront_logo.svg"

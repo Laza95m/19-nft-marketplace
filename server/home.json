@@ -4,7 +4,9 @@
       "id": 1,
       "title": "Discover digital art & Collect NFTs",
       "subtitle": "NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.",
-      "btnIcon": "/heroSection/rocket_launch.svg",
+      "link": "/create-account",
+      "btnSrc": "/heroSection/rocket_launch.svg",
+      "btnAlt": "rocket_launch_broken",
       "btnText": "Get Started",
       "additionalInfo": [
         { "title": "240k+", "subtitle": "Total Sale" },

@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  max-width: 510px;
+  width: 100%;
+  gap: 20px;
+  text-transform: capitalize;
+}
+
+.title {
+  font-size: 67px;
+  line-height: 74px;
+}
+
+.description {
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.btn {
+  list-style-type: none;
+  border-radius: 20px;
+  background: var(--call-to-Action);
+  display: flex;
+  justify-content: center;
+  max-width: 224px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(0.95);
+}
+
+.btn a {
+  display: flex;
+  gap: 12px;
+  color: var(--white);
+  padding: 20px 50px;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 22px;
+}

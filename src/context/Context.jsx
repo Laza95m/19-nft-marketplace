@@ -1,4 +1,6 @@
-import { createContext, useContext } from 'react';
+import { createContext, useContext, useState } from 'react';
+import Home from '../pages/Home/Home';
+import axios from 'axios';
 
 const Context = createContext();
 
@@ -22,16 +24,14 @@ export const ContextProvider = ({ children }) => {
     },
   ];
 
-  //   ---------------------------------------------------------------------------
-
   const publicPages = [
     {
       path: '*',
-      element: '',
+      element: '404',
     },
     {
       path: '/',
-      element: '',
+      element: <Home />,
     },
     {
       path: '/marketplace',
@@ -49,10 +49,52 @@ export const ContextProvider = ({ children }) => {
       path: '/sign-up',
       element: '',
     },
+    {
+      path: '/create-account',
+      element: '',
+    },
   ];
 
+  //   ---------------------------------------------------------------------------
+
+  const [isPopup, setIsPopup] = useState(false);
+
+  const openPopup = () => {
+    setIsPopup(true);
+  };
+
+  const closePopup = () => {
+    setIsPopup(false);
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const [heroSectionData, setHeroSectionData] = useState([]);
+
+  const heroSectionURL = 'http://localhost:3001/heroSection/';
+
+  const getHeroSectionData = async () => {
+    try {
+      const response = await axios.get(heroSectionURL);
+
+      setHeroSectionData(response.data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
-    <Context.Provider value={{ links, publicPages }}>
+    <Context.Provider
+      value={{
+        links,
+        publicPages,
+        isPopup,
+        openPopup,
+        closePopup,
+        heroSectionData,
+        getHeroSectionData,
+      }}
+    >
       {children}
     </Context.Provider>
   );

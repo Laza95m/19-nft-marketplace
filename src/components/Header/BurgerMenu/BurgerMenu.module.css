@@ -5,11 +5,21 @@
 .popup {
   display: flex;
   justify-content: flex-end;
-  z-index: 1;
   position: absolute;
   top: 0;
+  left: 130%;
+  width: 0%;
+  transition: 1s;
+  z-index: -10;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.popup.active {
   left: 0;
   width: 100%;
+  z-index: 1;
+  opacity: 1;
 }
 
 .nav {

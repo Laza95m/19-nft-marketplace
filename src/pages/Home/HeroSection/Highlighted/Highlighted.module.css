@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 510px;
+  width: 100%;
+}
+
+.block_one {
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.img {
+  width: 100%;
+  animation: img 2s infinite alternate;
+}
+
+@keyframes img {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.block_two {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 0px 0px 20px 20px;
+  background: var(--background---Secondary);
+}
+
+.title {
+  font-size: 22px;
+  line-height: 31px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.userImg {
+  width: 24px;
+  border-radius: 50%;
+}
+
+.name {
+  line-height: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 330px;
+  }
+}

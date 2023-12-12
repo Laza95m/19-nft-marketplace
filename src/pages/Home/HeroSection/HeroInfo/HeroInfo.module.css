@@ -1,7 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  color: var(--white);
   max-width: 510px;
   width: 100%;
   gap: 20px;
@@ -24,6 +23,7 @@
   background: var(--call-to-Action);
   display: flex;
   justify-content: center;
+  margin: 10px 0;
   max-width: 224px;
   width: 100%;
   transition: 0.3s;
@@ -36,9 +36,45 @@
 .btn a {
   display: flex;
   gap: 12px;
-  color: var(--white);
   padding: 20px 50px;
   text-decoration: none;
   font-weight: 600;
   line-height: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 330px;
+  }
+
+  .title {
+    font-size: 38px;
+    line-height: 45px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .btn {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    max-width: 315px;
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  .btn {
+    max-width: none;
+    margin: 30px 0;
+  }
 }

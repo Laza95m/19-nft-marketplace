@@ -69,17 +69,50 @@ export const ContextProvider = ({ children }) => {
 
   //   ---------------------------------------------------------------------------
 
+  //   ---------------------------------------------------------------------------
+
+  const [isLoadingHeroSection, setIsLoadingHeroSection] = useState(null);
   const [heroSectionData, setHeroSectionData] = useState([]);
 
   const heroSectionURL = 'http://localhost:3001/heroSection/';
 
   const getHeroSectionData = async () => {
     try {
+      setIsLoadingHeroSection(true);
       const response = await axios.get(heroSectionURL);
 
       setHeroSectionData(response.data);
+      setIsLoadingHeroSection(null);
     } catch (error) {
       console.log(error);
+      alert('В функции - "getHeroSectionData", произошла ошибка');
+      setIsLoadingHeroSection(null);
+    } finally {
+      setIsLoadingHeroSection(null);
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const [isLoadingTrendingCollection, setIsLoadingTrendingCollection] =
+    useState(null);
+  const [trendingCollectionData, setTrendingCollectionData] = useState([]);
+
+  const trendingCollectionURL = 'http://localhost:3001/trendingCollection/';
+
+  const getTrendingCollectionData = async () => {
+    try {
+      setIsLoadingTrendingCollection(true);
+      const response = await axios.get(trendingCollectionURL);
+
+      setTrendingCollectionData(response.data);
+      setIsLoadingTrendingCollection(null);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getTrendingCollectionData", произошла ошибка');
+      setIsLoadingTrendingCollection(null);
+    } finally {
+      setIsLoadingTrendingCollection(null);
     }
   };
 
@@ -91,8 +124,12 @@ export const ContextProvider = ({ children }) => {
         isPopup,
         openPopup,
         closePopup,
+        isLoadingHeroSection,
         heroSectionData,
         getHeroSectionData,
+        isLoadingTrendingCollection,
+        trendingCollectionData,
+        getTrendingCollectionData,
       }}
     >
       {children}

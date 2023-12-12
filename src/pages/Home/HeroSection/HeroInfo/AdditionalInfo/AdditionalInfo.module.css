@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.block {
+  max-width: 150px;
+  width: 100%;
+}
+
+.title {
+  font-family: Space Mono;
+  font-size: 28px;
+  line-height: 39px;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

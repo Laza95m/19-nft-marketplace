@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
 import s from './HeroInfo.module.css';
 import { myContext } from '../../../../context/Context';
+import AdditionalInfo from './AdditionalInfo/AdditionalInfo';
 
 const HeroInfo = () => {
   const { heroSectionData } = myContext();
   const heroInfoData = heroSectionData[0];
-
-  console.log(heroInfoData);
 
   return (
     <>
@@ -25,6 +24,7 @@ const HeroInfo = () => {
             </ul>
           </>
         )}
+        <AdditionalInfo />
       </div>
     </>
   );

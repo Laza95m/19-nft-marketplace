@@ -4,6 +4,7 @@
   --background: #2b2b2b;
   --white: #ffffff;
   --call-to-Action: #a259ff;
+  --background---Secondary: #3b3b3b;
 }
 
 * {
@@ -12,6 +13,7 @@
   box-sizing: border-box;
   outline: none;
   font-family: Work Sans;
+  color: var(--white);
 }
 
 body {

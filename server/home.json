@@ -9,19 +9,82 @@
       "btnAlt": "rocket_launch_broken",
       "btnText": "Get Started",
       "additionalInfo": [
-        { "title": "240k+", "subtitle": "Total Sale" },
-        { "title": "100k+", "subtitle": "Auctions" },
-        { "title": "240k+", "subtitle": "Artists" }
+        {
+          "id": 1,
+          "title": "240k+",
+          "subtitle": "Total Sale"
+        },
+        {
+          "id": 2,
+          "title": "100k+",
+          "subtitle": "Auctions"
+        },
+        {
+          "id": 3,
+          "title": "240k+",
+          "subtitle": "Artists"
+        }
       ]
     },
     {
       "id": 2,
       "imgSrc": "/heroSection/main.png",
       "imgAlt": "main_broken",
-      "tite": "Space Walking",
-      "userSrc": "user.png",
+      "title": "Space Walking",
+      "userSrc": "/heroSection/user.png",
       "userAlt": "user_broken",
       "userName": "Animakid"
     }
+  ],
+  "trendingCollection": [
+    {
+      "id": 1,
+      "title": "Trending Collection",
+      "subtitle": "Checkout our weekly updated trending collection."
+    },
+    [
+      {
+        "id": 1,
+        "primarySrc": "/trendingCollection/user_1/primary.png",
+        "primaryAlt": "primary_broken",
+        "secondSrc": "/trendingCollection/user_1/second.png",
+        "secondAlt": "primary_broken",
+        "thirdSrc": "/trendingCollection/user_1/third.png",
+        "thirdAlt": "primary_broken",
+        "count": "1025+",
+        "title": "DSGN Animals",
+        "userSrc": "/trendingCollection/user_1/user.png",
+        "userAlt": "user_broken",
+        "userName": "MrFox"
+      },
+      {
+        "id": 2,
+        "primarySrc": "/trendingCollection/user_2/primary.png",
+        "primaryAlt": "primary_broken",
+        "secondSrc": "/trendingCollection/user_2/second.png",
+        "secondAlt": "primary_broken",
+        "thirdSrc": "/trendingCollection/user_2/third.png",
+        "thirdAlt": "primary_broken",
+        "count": "1025+",
+        "title": "Magic Mushrooms",
+        "userSrc": "/trendingCollection/user_2/user.png",
+        "userAlt": "user_broken",
+        "userName": "Shroomie"
+      },
+      {
+        "id": 3,
+        "primarySrc": "/trendingCollection/user_3/primary.png",
+        "primaryAlt": "primary_broken",
+        "secondSrc": "/trendingCollection/user_3/second.png",
+        "secondAlt": "primary_broken",
+        "thirdSrc": "/trendingCollection/user_3/third.png",
+        "thirdAlt": "primary_broken",
+        "count": "1025+",
+        "title": "Disco Machines",
+        "userSrc": "/trendingCollection/user_3/user.png",
+        "userAlt": "user_broken",
+        "userName": "BeKind2Robots"
+      }
+    ]
   ]
 }

@@ -69,6 +69,12 @@ export const ContextProvider = ({ children }) => {
 
   //   ---------------------------------------------------------------------------
 
+  const [size, setSize] = useState(0);
+
+  const resizeHandler = () => {
+    setSize(window.innerWidth);
+  };
+
   //   ---------------------------------------------------------------------------
 
   const [isLoadingHeroSection, setIsLoadingHeroSection] = useState(null);
@@ -116,6 +122,30 @@ export const ContextProvider = ({ children }) => {
     }
   };
 
+  //   ---------------------------------------------------------------------------
+
+  const [isLoadingTopRatedArtists, setIsLoadingTopRatedArtists] =
+    useState(null);
+  const [TopRatedArtistsData, setTopRatedArtistsData] = useState([]);
+
+  const headlineSectionURL = 'http://localhost:3001/topRatedArtists/';
+
+  const getTopRatedArtistsData = async () => {
+    try {
+      setIsLoadingTopRatedArtists(true);
+      const response = await axios.get(headlineSectionURL);
+
+      setTopRatedArtistsData(response.data);
+      setIsLoadingTopRatedArtists(null);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getHeadlineSectionData", произошла ошибка');
+      setIsLoadingTopRatedArtists(null);
+    } finally {
+      setIsLoadingTopRatedArtists(null);
+    }
+  };
+
   return (
     <Context.Provider
       value={{
@@ -130,6 +160,11 @@ export const ContextProvider = ({ children }) => {
         isLoadingTrendingCollection,
         trendingCollectionData,
         getTrendingCollectionData,
+        size,
+        resizeHandler,
+        isLoadingTopRatedArtists,
+        TopRatedArtistsData,
+        getTopRatedArtistsData,
       }}
     >
       {children}

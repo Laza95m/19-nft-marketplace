@@ -13,6 +13,12 @@
 
 .container img {
   width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container img:hover {
+  transform: scale(0.95);
 }
 
 .primaryImg {
@@ -38,6 +44,12 @@
   align-items: center;
   border-radius: 20px;
   background: var(--call-to-Action);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: scale(0.95);
 }
 
 .count {

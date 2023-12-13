@@ -86,5 +86,16 @@
         "userName": "BeKind2Robots"
       }
     ]
+  ],
+  "topRatedArtists": [
+    {
+      "id": 1,
+      "title": "Top creators",
+      "subtitle": "Checkout Top Rated Creators on the NFT Marketplace",
+      "link": "/rankings",
+      "btnSrc": "/topRatedArtists/rocket_launch.svg",
+      "btnAlt": "rocket_launch_broken",
+      "btnText": "View Rankings"
+    }
   ]
 }

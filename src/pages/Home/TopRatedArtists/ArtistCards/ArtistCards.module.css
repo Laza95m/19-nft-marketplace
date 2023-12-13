@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.block {
+  padding: 20px;
+  border-radius: 20px;
+  background: #3b3b3b;
+}
+
+.content_one {
+  display: flex;
+  align-items: flex-start;
+}
+
+.box_one {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background: var(--background);
+  margin-right: 15px;
+  padding: 4px 10px;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}

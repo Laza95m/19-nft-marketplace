@@ -5,6 +5,7 @@
   --white: #ffffff;
   --call-to-Action: #a259ff;
   --background---Secondary: #3b3b3b;
+  --caption-label-text: #858584;
 }
 
 * {
@@ -13,6 +14,7 @@
   box-sizing: border-box;
   outline: none;
   font-family: Work Sans;
+  scroll-behavior: smooth;
   color: var(--white);
 }
 

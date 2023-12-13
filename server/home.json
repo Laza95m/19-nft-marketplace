@@ -96,6 +96,7 @@
       "btnSrc": "/topRatedArtists/rocket_launch.svg",
       "btnAlt": "rocket_launch_broken",
       "btnText": "View Rankings"
-    }
+    },
+    { "id": 2, "text": "Total Sales: ", "currency": " ETH" }
   ]
 }

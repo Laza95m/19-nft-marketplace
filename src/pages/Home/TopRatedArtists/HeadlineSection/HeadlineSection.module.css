@@ -44,6 +44,7 @@
 
 .btn a {
   display: flex;
+  width: 247px;
   gap: 12px;
   padding: 20px 50px;
   text-decoration: none;

@@ -77,72 +77,79 @@ export const ContextProvider = ({ children }) => {
 
   //   ---------------------------------------------------------------------------
 
-  const [isLoadingHeroSection, setIsLoadingHeroSection] = useState(null);
+  const [isLoadingHeroSection, setIsLoadingHeroSection] = useState(false);
   const [heroSectionData, setHeroSectionData] = useState([]);
 
-  const heroSectionURL = 'http://localhost:3001/heroSection/';
+  const heroSectionURL = 'http://localhost:3001/heroSection';
 
   const getHeroSectionData = async () => {
+    setIsLoadingHeroSection(true);
+
     try {
-      setIsLoadingHeroSection(true);
       const response = await axios.get(heroSectionURL);
 
       setHeroSectionData(response.data);
-      setIsLoadingHeroSection(null);
+      setIsLoadingHeroSection(false);
     } catch (error) {
       console.log(error);
       alert('В функции - "getHeroSectionData", произошла ошибка');
-      setIsLoadingHeroSection(null);
+      setIsLoadingHeroSection(false);
     } finally {
-      setIsLoadingHeroSection(null);
+      setIsLoadingHeroSection(false);
     }
   };
 
   //   ---------------------------------------------------------------------------
 
   const [isLoadingTrendingCollection, setIsLoadingTrendingCollection] =
-    useState(null);
+    useState(false);
   const [trendingCollectionData, setTrendingCollectionData] = useState([]);
 
-  const trendingCollectionURL = 'http://localhost:3001/trendingCollection/';
+  const trendingCollectionURL = 'http://localhost:3001/trendingCollection';
 
   const getTrendingCollectionData = async () => {
+    setIsLoadingTrendingCollection(true);
+
     try {
-      setIsLoadingTrendingCollection(true);
       const response = await axios.get(trendingCollectionURL);
 
       setTrendingCollectionData(response.data);
-      setIsLoadingTrendingCollection(null);
+      setIsLoadingTrendingCollection(false);
     } catch (error) {
       console.log(error);
       alert('В функции - "getTrendingCollectionData", произошла ошибка');
-      setIsLoadingTrendingCollection(null);
+      setIsLoadingTrendingCollection(false);
     } finally {
-      setIsLoadingTrendingCollection(null);
+      setIsLoadingTrendingCollection(false);
     }
   };
 
   //   ---------------------------------------------------------------------------
 
   const [isLoadingTopRatedArtists, setIsLoadingTopRatedArtists] =
-    useState(null);
+    useState(false);
   const [TopRatedArtistsData, setTopRatedArtistsData] = useState([]);
+  const [TopRatedArtistsUsers, setTopRatedArtistsUsers] = useState([]);
 
-  const headlineSectionURL = 'http://localhost:3001/topRatedArtists/';
+  const headlineSectionURL = 'http://localhost:3001/topRatedArtists';
+  const usersURL = 'http://localhost:3002/users';
 
   const getTopRatedArtistsData = async () => {
-    try {
-      setIsLoadingTopRatedArtists(true);
-      const response = await axios.get(headlineSectionURL);
+    setIsLoadingTopRatedArtists(true);
 
-      setTopRatedArtistsData(response.data);
-      setIsLoadingTopRatedArtists(null);
+    try {
+      const responseData = await axios.get(headlineSectionURL);
+      const responseUsers = await axios.get(usersURL);
+
+      setTopRatedArtistsData(responseData.data);
+      setTopRatedArtistsUsers(responseUsers.data);
+      setIsLoadingTopRatedArtists(false);
     } catch (error) {
       console.log(error);
-      alert('В функции - "getHeadlineSectionData", произошла ошибка');
-      setIsLoadingTopRatedArtists(null);
+      alert('В функции - "getTopRatedArtistsData", произошла ошибка');
+      setIsLoadingTopRatedArtists(false);
     } finally {
-      setIsLoadingTopRatedArtists(null);
+      setIsLoadingTopRatedArtists(false);
     }
   };
 
@@ -164,6 +171,7 @@ export const ContextProvider = ({ children }) => {
         resizeHandler,
         isLoadingTopRatedArtists,
         TopRatedArtistsData,
+        TopRatedArtistsUsers,
         getTopRatedArtistsData,
       }}
     >

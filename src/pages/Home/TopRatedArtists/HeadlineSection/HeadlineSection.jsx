@@ -6,7 +6,6 @@ const HeadlineSection = () => {
   const { TopRatedArtistsData } = myContext();
   const headlineSectionData = TopRatedArtistsData[0];
 
-  console.log(headlineSectionData);
   return (
     <>
       {headlineSectionData && (
@@ -18,7 +17,7 @@ const HeadlineSection = () => {
           <div className={s.block_two}>
             <ul className={s.btn}>
               <li>
-                <Link to={headlineSectionData.Link}>
+                <Link to={headlineSectionData.link}>
                   <img
                     src={headlineSectionData.btnSrc}
                     alt={headlineSectionData.btnAlt}

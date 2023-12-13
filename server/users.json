@@ -2,15 +2,16 @@
   "users": [
     {
       "id": 1,
-      "primaryImg": "userProfiles/user_1/userImg.png",
+      "primarySrc": "userProfiles/user_1/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Jaydon Ekstrom Bothman",
       "nickName": "Keepitreal",
       "totalSale": 34.53,
-      "currency": "ETH",
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "0xc0E38gDLf1d13DFgbrt0956KLFjwtoioweB79C",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -32,20 +33,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 2,
-      "primaryImg": "userProfiles/user_2/userImg.png",
+      "primarySrc": "userProfiles/user_2/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Ruben Carder",
       "nickName": "DigiLab",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 33.43,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "8q25470t9,4y58fq29ld50qgu4-683--430hu6er",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -67,20 +68,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 3,
-      "primaryImg": "userProfiles/user_3/userImg.png",
+      "primarySrc": "userProfiles/user_3/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Alfredo Septimus",
       "nickName": "GravityOne",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 32.33,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "5235-0gdfksq23-5iy6q34F_>D_$@#$<UV%(#@c.",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -102,20 +103,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 4,
-      "primaryImg": "userProfiles/user_4/userImg.png",
+      "primarySrc": "userProfiles/user_4/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Davis Franci",
       "nickName": "Juanie",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 31.23,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "%<()@#C<RJKLDSHVes;lej90g589240jwtc9j34s",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -137,20 +138,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 5,
-      "primaryImg": "userProfiles/user_5/userImg.png",
+      "primarySrc": "userProfiles/user_5/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Livia Rosser",
       "nickName": "BlueWhale",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 30.13,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "#%():HSDOrt09346wke4r40twe4-0%W$)%)9.0we",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -172,20 +173,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 6,
-      "primaryImg": "userProfiles/user_6/userImg.png",
+      "primarySrc": "userProfiles/user_6/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Kianna Donin",
       "nickName": "mr fox",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 29.93,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "59028r,fdjsoisjr@#%$*()%jdfsIJ<FOSdf50--",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -207,20 +208,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 7,
-      "primaryImg": "userProfiles/user_7/userImg.png",
+      "primarySrc": "userProfiles/user_7/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Phillip Lipshutz",
       "nickName": "Shroomie",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 28.83,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "&)OLFSKWJ#%09-6-b.0fsdijo,t40363t.vc34ts",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -242,20 +243,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 8,
-      "primaryImg": "userProfiles/user_8/userImg.png",
+      "primarySrc": "userProfiles/user_8/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Maria Rosser",
       "nickName": "robotica",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 27.73,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "95rekosd6u349jrfsldmcmZC>AER:@#%$)_#Etrl",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -277,20 +278,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 9,
-      "primaryImg": "userProfiles/user_9/userImg.png",
+      "primarySrc": "userProfiles/user_9/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Kianna Stanton",
       "nickName": "RustyRobot",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 26.67,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "0ads,k2359gj,9wes$Q@#)($>KOVPW%#90gw.e04",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -312,20 +313,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 10,
-      "primaryImg": "userProfiles/user_10/userImg.png",
+      "primarySrc": "userProfiles/user_10/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Randy Carder",
       "nickName": "animakid",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 81.85,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "#%(K)FEWAS)%33333t,v90wex.as3343#)><Xfrk",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -347,20 +348,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 11,
-      "primaryImg": "userProfiles/user_11/userImg.png",
+      "primarySrc": "userProfiles/user_11/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Lydia Culhane",
       "nickName": "Dotgu",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 83.29,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "DAIOVWDOas98258923rcwiwera204seoi,tbj534",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -382,20 +383,20 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     },
     {
       "id": 12,
-      "primaryImg": "userProfiles/user_12/userImg.png",
+      "primarySrc": "userProfiles/user_12/userImg.png",
+      "primaryAlt": "userImg_broken",
       "fullName": "Jocelyn Westervelt",
       "nickName": "Ghiblier",
-      "totalSale": 34.53,
-      "currency": "ETH",
+      "totalSale": 51.73,
       "totalsSold": 50,
       "followers": 3000,
       "linkPath": "0r23u56h-wer,tr-%_$%>WES)_%F>%#_)342f4,e",
       "bio": "The internet's friendliest designer kid.",
+      "change": "+1.41%",
       "links": [
         {
           "globalLink": "",
@@ -417,8 +418,7 @@
           "instagramLink": "https://www.instagram.com/",
           "instagramImg": ""
         }
-      ],
-      "change": "+1.41%"
+      ]
     }
   ]
 }

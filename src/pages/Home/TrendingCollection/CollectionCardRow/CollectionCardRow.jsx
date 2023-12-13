@@ -3,17 +3,8 @@ import { myContext } from '../../../../context/Context';
 import s from './CollectionCardRow.module.css';
 
 const CollectionCardRow = () => {
-  const { trendingCollectionData, size, resizeHandler } = myContext();
+  const { trendingCollectionData, size } = myContext();
   let collectionCardRowData = trendingCollectionData[1];
-
-  useEffect(() => {
-    window.addEventListener('resize', resizeHandler);
-    resizeHandler();
-
-    return () => {
-      window.removeEventListener('resize', resizeHandler);
-    };
-  }, []);
 
   if (size <= 1280)
     collectionCardRowData = trendingCollectionData[1]?.filter(

@@ -14,12 +14,22 @@ const Home = () => {
     isLoadingTrendingCollection,
     getTopRatedArtistsData,
     isLoadingTopRatedArtists,
+    resizeHandler,
   } = myContext();
 
   useEffect(() => {
     getHeroSectionData();
     getTrendingCollectionData();
     getTopRatedArtistsData();
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener('resize', resizeHandler);
+    resizeHandler();
+
+    return () => {
+      window.removeEventListener('resize', resizeHandler);
+    };
   }, []);
 
   return (

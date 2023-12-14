@@ -98,5 +98,69 @@
       "btnText": "View Rankings"
     },
     { "id": 2, "text": "Total Sales: ", "currency": " ETH" }
+  ],
+  "browseCategories": [
+    {
+      "id": 1,
+      "title": "Browse Categories"
+    },
+    [
+      {
+        "id": 1,
+        "placeholderSrc": "/browseCategories/placeholder_1.png",
+        "iconSrc": "/browseCategories/paintBrush.svg",
+        "iconAlt": "paintBrush_broken",
+        "title": "Art"
+      },
+      {
+        "id": 2,
+        "placeholderSrc": "/browseCategories/placeholder_2.png",
+        "iconSrc": "/browseCategories/swatches.svg",
+        "iconAlt": "swatches_broken",
+        "title": "Collectibles"
+      },
+      {
+        "id": 3,
+        "placeholderSrc": "/browseCategories/placeholder_3.png",
+        "iconSrc": "/browseCategories/musicNotes.svg",
+        "iconAlt": "musicNotes_broken",
+        "title": "Music"
+      },
+      {
+        "id": 4,
+        "placeholderSrc": "/browseCategories/placeholder_4.png",
+        "iconSrc": "/browseCategories/camera.svg",
+        "iconAlt": "camera_broken",
+        "title": "Photography"
+      },
+      {
+        "id": 5,
+        "placeholderSrc": "/browseCategories/placeholder_5.png",
+        "iconSrc": "/browseCategories/videoCamera.svg",
+        "iconAlt": "videoCamera_broken",
+        "title": "Video"
+      },
+      {
+        "id": 6,
+        "placeholderSrc": "/browseCategories/placeholder_6.png",
+        "iconSrc": "/browseCategories/magicWand.svg",
+        "iconAlt": "magicWand_broken",
+        "title": "Utility"
+      },
+      {
+        "id": 7,
+        "placeholderSrc": "/browseCategories/placeholder_7.png",
+        "iconSrc": "/browseCategories/basketball.svg",
+        "iconAlt": "basketball_broken",
+        "title": "Sport"
+      },
+      {
+        "id": 8,
+        "placeholderSrc": "/browseCategories/placeholder_8.png",
+        "iconSrc": "/browseCategories/planet.svg",
+        "iconAlt": "planet_broken",
+        "title": "Virtual Worlds"
+      }
+    ]
   ]
 }

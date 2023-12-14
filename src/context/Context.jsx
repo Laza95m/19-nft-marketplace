@@ -93,7 +93,6 @@ export const ContextProvider = ({ children }) => {
     } catch (error) {
       console.log(error);
       alert('В функции - "getHeroSectionData", произошла ошибка');
-      setIsLoadingHeroSection(false);
     } finally {
       setIsLoadingHeroSection(false);
     }
@@ -118,7 +117,6 @@ export const ContextProvider = ({ children }) => {
     } catch (error) {
       console.log(error);
       alert('В функции - "getTrendingCollectionData", произошла ошибка');
-      setIsLoadingTrendingCollection(false);
     } finally {
       setIsLoadingTrendingCollection(false);
     }
@@ -147,9 +145,32 @@ export const ContextProvider = ({ children }) => {
     } catch (error) {
       console.log(error);
       alert('В функции - "getTopRatedArtistsData", произошла ошибка');
-      setIsLoadingTopRatedArtists(false);
     } finally {
       setIsLoadingTopRatedArtists(false);
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const [isLoadingBrowseCategories, setIsLoadingBrowseCategories] =
+    useState(false);
+  const [browseCategoriesData, setBrowseCategoriesData] = useState([]);
+
+  const browseCategoriesURL = 'http://localhost:3001/browseCategories';
+
+  const getBrowseCategoriesData = async () => {
+    setIsLoadingBrowseCategories(true);
+
+    try {
+      const response = await axios.get(browseCategoriesURL);
+
+      setBrowseCategoriesData(response.data);
+      setIsLoadingBrowseCategories(false);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getBrowseCategoriesData", произошла ошибка');
+    } finally {
+      setIsLoadingBrowseCategories(false);
     }
   };
 
@@ -173,6 +194,9 @@ export const ContextProvider = ({ children }) => {
         TopRatedArtistsData,
         TopRatedArtistsUsers,
         getTopRatedArtistsData,
+        isLoadingBrowseCategories,
+        browseCategoriesData,
+        getBrowseCategoriesData,
       }}
     >
       {children}

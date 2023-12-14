@@ -5,6 +5,7 @@ import { myContext } from '../../context/Context';
 import Loader from '../../components/Loader/Loader';
 import TrendingCollection from './TrendingCollection/TrendingCollection';
 import TopRatedArtists from './TopRatedArtists/TopRatedArtists';
+import BrowseCategories from './BrowseCategories/BrowseCategories';
 
 const Home = () => {
   const {
@@ -14,6 +15,8 @@ const Home = () => {
     isLoadingTrendingCollection,
     getTopRatedArtistsData,
     isLoadingTopRatedArtists,
+    getBrowseCategoriesData,
+    isLoadingBrowseCategories,
     resizeHandler,
   } = myContext();
 
@@ -21,6 +24,7 @@ const Home = () => {
     getHeroSectionData();
     getTrendingCollectionData();
     getTopRatedArtistsData();
+    getBrowseCategoriesData();
   }, []);
 
   useEffect(() => {
@@ -37,6 +41,7 @@ const Home = () => {
       {isLoadingHeroSection ? <Loader /> : <HeroSection />}
       {isLoadingTrendingCollection ? <Loader /> : <TrendingCollection />}
       {isLoadingTopRatedArtists ? <Loader /> : <TopRatedArtists />}
+      {isLoadingBrowseCategories ? <Loader /> : <BrowseCategories />}
     </>
   );
 };

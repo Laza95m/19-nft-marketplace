@@ -76,3 +76,15 @@
 .name {
   line-height: 22px;
 }
+
+@media screen and (max-width: 1280px) {
+  .container:nth-of-type(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .container:nth-of-type(2) {
+    display: none;
+  }
+}

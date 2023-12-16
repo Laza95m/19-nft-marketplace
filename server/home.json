@@ -162,5 +162,22 @@
         "title": "Virtual Worlds"
       }
     ]
+  ],
+  "discoverMore": [
+    {
+      "id": 1,
+      "title": "Discover More NFTs",
+      "subtitle": "Explore new trending NFTs",
+      "link": "/marketplace",
+      "btnSrc": "/discoverMore/eye.svg",
+      "btnAlt": "eye_broken",
+      "btnText": "See All"
+    },
+    {
+      "id": 2,
+      "priceText": "price",
+      "highestBid": "Highest Bid",
+      "currency": " ETH"
+    }
   ]
 }

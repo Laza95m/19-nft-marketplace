@@ -6,14 +6,14 @@ const CollectionCardRow = () => {
   const { trendingCollectionData, size } = myContext();
   let collectionCardRowData = trendingCollectionData[1];
 
-  if (size <= 1280)
-    collectionCardRowData = trendingCollectionData[1]?.filter(
-      (el) => el.id < 3
-    );
-  if (size <= 834)
-    collectionCardRowData = trendingCollectionData[1]?.filter(
-      (el) => el.id < 2
-    );
+  // if (size <= 1280)
+  //   collectionCardRowData = trendingCollectionData[1]?.filter(
+  //     (el) => el.id < 3
+  //   );
+  // if (size <= 834)
+  //   collectionCardRowData = trendingCollectionData[1]?.filter(
+  //     (el) => el.id < 2
+  //   );
 
   return (
     <>

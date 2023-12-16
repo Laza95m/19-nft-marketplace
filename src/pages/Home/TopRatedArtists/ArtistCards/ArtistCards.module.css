@@ -99,3 +99,23 @@
     align-items: flex-start;
   }
 }
+
+@media screen and (max-width: 1010px) {
+  .block:is(
+      :nth-of-type(7),
+      :nth-of-type(8),
+      :nth-of-type(9),
+      :nth-of-type(10),
+      :nth-of-type(11),
+      :nth-of-type(12),
+
+    ) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .block:nth-of-type(6) {
+    display: none;
+  }
+}

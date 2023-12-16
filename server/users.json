@@ -14,24 +14,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_1/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Distant Galaxy",
+          "price": 1.63,
+          "highestBid": 2.05
         }
       ]
     },
@@ -49,24 +59,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_2/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Life On Edena",
+          "price": 1.15,
+          "highestBid": 4.51
         }
       ]
     },
@@ -84,24 +104,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_3/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "AstroFiction",
+          "price": 0.84,
+          "highestBid": 1.55
         }
       ]
     },
@@ -119,24 +149,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_4/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Asdasdasdas",
+          "price": 4.01,
+          "highestBid": 4.05
         }
       ]
     },
@@ -154,24 +194,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_5/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Asdasdasdas",
+          "price": 0.99,
+          "highestBid": 1.05
         }
       ]
     },
@@ -189,24 +239,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_6/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Asdasdasdas",
+          "price": 1.9,
+          "highestBid": 2.31
         }
       ]
     },
@@ -224,24 +284,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_7/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Asdasdasdas",
+          "price": 5.21,
+          "highestBid": 5.29
         }
       ]
     },
@@ -259,24 +329,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_8/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Asdasdasdas",
+          "price": 3.44,
+          "highestBid": 4.09
         }
       ]
     },
@@ -294,24 +374,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_9/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Asdasdasdas",
+          "price": 0.1,
+          "highestBid": 1.77
         }
       ]
     },
@@ -329,24 +419,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_10/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Asdasdasdas",
+          "price": 7.0,
+          "highestBid": 7.75
         }
       ]
     },
@@ -364,24 +464,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_11/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Asdasdasdas",
+          "price": 4.45,
+          "highestBid": 4.67
         }
       ]
     },
@@ -399,24 +509,34 @@
       "change": "+1.41%",
       "links": [
         {
-          "globalLink": "",
-          "globalImg": ""
+          "id": 1,
+          "globalLink": ""
         },
         {
-          "discordLink": "https://discord.com/",
-          "discordImg": ""
+          "id": 2,
+          "discordLink": "https://discord.com/"
         },
         {
-          "youtubeLink": "https://www.youtube.com/",
-          "youtubeImg": ""
+          "id": 3,
+          "youtubeLink": "https://www.youtube.com/"
         },
         {
-          "twitterLink": "https://twitter.com/",
-          "twitterImg": ""
+          "id": 4,
+          "twitterLink": "https://twitter.com/"
         },
         {
-          "instagramLink": "https://www.instagram.com/",
-          "instagramImg": ""
+          "id": 5,
+          "instagramLink": "https://www.instagram.com/"
+        }
+      ],
+      "nfts": [
+        {
+          "id": 1,
+          "nftSrc": "/userProfiles/user_12/nfts/nft_1.png",
+          "nftAlt": "nft_1_broken",
+          "nftName": "Asdasdasdas",
+          "price": 2.95,
+          "highestBid": 3.64
         }
       ]
     }

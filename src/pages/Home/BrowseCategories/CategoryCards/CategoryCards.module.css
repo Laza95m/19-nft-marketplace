@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -7,18 +8,23 @@
 .block {
   display: flex;
   flex-direction: column;
-  width: 240px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.block:hover {
+  transform: scale(0.95);
 }
 
 .content {
   overflow: hidden;
+  border-radius: 20px 20px 0 0;
 }
 
 .box_one {
   position: relative;
   width: 240px;
   height: 240px;
-  border-radius: 20px 20px 0 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,8 +32,8 @@
 }
 
 .img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .box_two {
@@ -47,4 +53,38 @@
   background: var(--background---Secondary);
   font-size: 22px;
   line-height: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .block {
+    width: 150px;
+  }
+
+  .box_one {
+    width: 150px;
+    height: 142px;
+  }
+
+  .img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .box_two {
+    width: 150px;
+    height: 142px;
+  }
+
+  .box_three {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .title {
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 760px){
+  
 }

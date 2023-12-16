@@ -6,6 +6,8 @@ import Loader from '../../components/Loader/Loader';
 import TrendingCollection from './TrendingCollection/TrendingCollection';
 import TopRatedArtists from './TopRatedArtists/TopRatedArtists';
 import BrowseCategories from './BrowseCategories/BrowseCategories';
+import DiscoverMore from './DiscoverMore/DiscoverMore';
+import InfoNft from './InfoNft/InfoNft';
 
 const Home = () => {
   const {
@@ -17,6 +19,8 @@ const Home = () => {
     isLoadingTopRatedArtists,
     getBrowseCategoriesData,
     isLoadingBrowseCategories,
+    isLoadingDiscoverMore,
+    getDiscoverMoreData,
     resizeHandler,
   } = myContext();
 
@@ -25,16 +29,17 @@ const Home = () => {
     getTrendingCollectionData();
     getTopRatedArtistsData();
     getBrowseCategoriesData();
+    getDiscoverMoreData();
   }, []);
 
-  useEffect(() => {
-    window.addEventListener('resize', resizeHandler);
-    resizeHandler();
+  // useEffect(() => {
+  //   window.addEventListener('resize', resizeHandler);
+  //   resizeHandler();
 
-    return () => {
-      window.removeEventListener('resize', resizeHandler);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('resize', resizeHandler);
+  //   };
+  // }, []);
 
   return (
     <>
@@ -42,6 +47,8 @@ const Home = () => {
       {isLoadingTrendingCollection ? <Loader /> : <TrendingCollection />}
       {isLoadingTopRatedArtists ? <Loader /> : <TopRatedArtists />}
       {isLoadingBrowseCategories ? <Loader /> : <BrowseCategories />}
+      {isLoadingDiscoverMore ? <Loader /> : <DiscoverMore />}
+      <InfoNft />
     </>
   );
 };

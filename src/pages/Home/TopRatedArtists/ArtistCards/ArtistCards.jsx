@@ -5,10 +5,10 @@ const ArtistCards = () => {
   const { TopRatedArtistsData, size } = myContext();
   let { TopRatedArtistsUsers } = myContext();
 
-  if (size <= 1009)
-    TopRatedArtistsUsers = TopRatedArtistsUsers.filter((el) => el.id < 7);
-  if (size <= 760)
-    TopRatedArtistsUsers = TopRatedArtistsUsers.filter((el) => el.id < 6);
+  // if (size <= 1009)
+  //   TopRatedArtistsUsers = TopRatedArtistsUsers.filter((el) => el.id < 7);
+  // if (size <= 760)
+  //   TopRatedArtistsUsers = TopRatedArtistsUsers.filter((el) => el.id < 6);
 
   return (
     <>

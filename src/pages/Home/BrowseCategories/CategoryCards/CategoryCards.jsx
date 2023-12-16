@@ -5,8 +5,6 @@ const CategoryCards = () => {
   const { browseCategoriesData } = myContext();
   const categoryCardsData = browseCategoriesData[1];
 
-  console.log(categoryCardsData);
-
   return (
     <>
       <div className={s.container}>
@@ -21,10 +19,10 @@ const CategoryCards = () => {
               ></div>
             </div>
             <div className={s.box_two}>
-              <img className={s.img} src={el.iconSrc} alt="broken" />
+              <img className={s.img} src={el.iconSrc} alt={el.iconAlt} />
             </div>
             <div className={s.box_three}>
-              <h5>Art</h5>
+              <h5 className={s.title}>{el.title}</h5>
             </div>
           </div>
         ))}

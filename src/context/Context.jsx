@@ -77,6 +77,10 @@ export const ContextProvider = ({ children }) => {
 
   //   ---------------------------------------------------------------------------
 
+  const usersURL = 'http://localhost:3002/users';
+
+  //   ---------------------------------------------------------------------------
+
   const [isLoadingHeroSection, setIsLoadingHeroSection] = useState(false);
   const [heroSectionData, setHeroSectionData] = useState([]);
 
@@ -130,7 +134,6 @@ export const ContextProvider = ({ children }) => {
   const [TopRatedArtistsUsers, setTopRatedArtistsUsers] = useState([]);
 
   const headlineSectionURL = 'http://localhost:3001/topRatedArtists';
-  const usersURL = 'http://localhost:3002/users';
 
   const getTopRatedArtistsData = async () => {
     setIsLoadingTopRatedArtists(true);
@@ -174,6 +177,32 @@ export const ContextProvider = ({ children }) => {
     }
   };
 
+  //   ---------------------------------------------------------------------------
+
+  const [isLoadingDiscoverMore, setIsLoadingDiscoverMore] = useState(false);
+  const [discoverMoreData, setDiscoverMoreData] = useState([]);
+  const [discoverMoreUsers, setDiscoverMoreUsers] = useState([]);
+
+  const discoverMoreURL = 'http://localhost:3001/discoverMore';
+
+  const getDiscoverMoreData = async () => {
+    setIsLoadingDiscoverMore(true);
+
+    try {
+      const responseData = await axios.get(discoverMoreURL);
+      const responseUsers = await axios.get(usersURL);
+
+      setDiscoverMoreData(responseData.data);
+      setDiscoverMoreUsers(responseUsers.data);
+      setIsLoadingDiscoverMore(false);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getDiscoverMoreData", произошла ошибка');
+    } finally {
+      setIsLoadingDiscoverMore(false);
+    }
+  };
+
   return (
     <Context.Provider
       value={{
@@ -197,6 +226,10 @@ export const ContextProvider = ({ children }) => {
         isLoadingBrowseCategories,
         browseCategoriesData,
         getBrowseCategoriesData,
+        isLoadingDiscoverMore,
+        discoverMoreData,
+        discoverMoreUsers,
+        getDiscoverMoreData,
       }}
     >
       {children}

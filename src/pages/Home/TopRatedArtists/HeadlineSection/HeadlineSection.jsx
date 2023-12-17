@@ -8,7 +8,7 @@ const HeadlineSection = () => {
 
   return (
     <>
-      {headlineSectionData && (
+      {!!headlineSectionData && (
         <div className={s.container}>
           <div className={s.block_one}>
             <h5 className={s.title}>{headlineSectionData.title}</h5>

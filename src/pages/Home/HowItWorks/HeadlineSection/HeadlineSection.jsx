@@ -2,8 +2,8 @@ import { myContext } from '../../../../context/Context';
 import s from './HeadlineSection.module.css';
 
 const HeadlineSection = () => {
-  const { trendingCollectionData } = myContext();
-  const headlineSectionData = trendingCollectionData[0];
+  const { howItWorksData } = myContext();
+  const headlineSectionData = howItWorksData[0];
 
   return (
     <>

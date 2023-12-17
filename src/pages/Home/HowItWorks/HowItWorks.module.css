@@ -1,0 +1,24 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 80px 115px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .section {
+    gap: 40px;
+    padding: 40px 72px;
+    max-width: 835px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .section {
+    padding: 40px 30px;
+    max-width: 390px;
+  }
+}

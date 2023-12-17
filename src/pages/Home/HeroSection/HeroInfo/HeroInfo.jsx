@@ -10,7 +10,7 @@ const HeroInfo = () => {
   return (
     <>
       <div className={s.container}>
-        {heroInfoData && (
+        {!!heroInfoData && (
           <>
             <h1 className={s.title}>{heroInfoData.title}</h1>
             <p className={s.description}>{heroInfoData.subtitle}</p>

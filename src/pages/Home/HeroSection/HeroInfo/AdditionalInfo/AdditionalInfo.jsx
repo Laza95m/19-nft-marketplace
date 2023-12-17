@@ -8,12 +8,13 @@ const AdditionalInfo = () => {
   return (
     <>
       <div className={s.container}>
-        {additionalInfo?.map((el) => (
-          <div key={el.id} className={s.block}>
-            <h4 className={s.title}>{el.title}</h4>
-            <p className={s.subtitle}>{el.subtitle}</p>
-          </div>
-        ))}
+        {!!additionalInfo &&
+          additionalInfo.map((el) => (
+            <div key={el.id} className={s.block}>
+              <h4 className={s.title}>{el.title}</h4>
+              <p className={s.subtitle}>{el.subtitle}</p>
+            </div>
+          ))}
       </div>
     </>
   );

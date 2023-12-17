@@ -8,6 +8,7 @@ import TopRatedArtists from './TopRatedArtists/TopRatedArtists';
 import BrowseCategories from './BrowseCategories/BrowseCategories';
 import DiscoverMore from './DiscoverMore/DiscoverMore';
 import InfoNft from './InfoNft/InfoNft';
+import HowItWorks from './HowItWorks/HowItWorks';
 
 const Home = () => {
   const {
@@ -21,6 +22,10 @@ const Home = () => {
     isLoadingBrowseCategories,
     isLoadingDiscoverMore,
     getDiscoverMoreData,
+    isLoadingInfoNft,
+    getInfoNftData,
+    isLoadingHowItWorks,
+    getHowItWorksData,
     resizeHandler,
   } = myContext();
 
@@ -30,6 +35,8 @@ const Home = () => {
     getTopRatedArtistsData();
     getBrowseCategoriesData();
     getDiscoverMoreData();
+    getInfoNftData();
+    getHowItWorksData();
   }, []);
 
   // useEffect(() => {
@@ -48,7 +55,8 @@ const Home = () => {
       {isLoadingTopRatedArtists ? <Loader /> : <TopRatedArtists />}
       {isLoadingBrowseCategories ? <Loader /> : <BrowseCategories />}
       {isLoadingDiscoverMore ? <Loader /> : <DiscoverMore />}
-      <InfoNft />
+      {isLoadingInfoNft ? <Loader /> : <InfoNft />}
+      {isLoadingHowItWorks ? <Loader /> : <HowItWorks />}
     </>
   );
 };

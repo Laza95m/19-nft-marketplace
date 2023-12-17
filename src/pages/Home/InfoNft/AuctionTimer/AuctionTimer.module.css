@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  background: rgba(59, 59, 59, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.title {
+  font-family: Space Mono;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.block {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.num {
+  font-family: Space Mono;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.time {
+  font-family: Space Mono;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.colon {
+  font-family: Space Mono;
+  font-size: 28px;
+  line-height: 39px;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    width: 100%;
+  }
+
+  .block {
+    justify-content: space-between;
+  }
+}

@@ -81,6 +81,12 @@ export const ContextProvider = ({ children }) => {
 
   //   ---------------------------------------------------------------------------
 
+  const genereteRandomNum = (userLength) => {
+    return Math.round(Math.random() * userLength);
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const [isLoadingHeroSection, setIsLoadingHeroSection] = useState(false);
   const [heroSectionData, setHeroSectionData] = useState([]);
 
@@ -203,6 +209,55 @@ export const ContextProvider = ({ children }) => {
     }
   };
 
+  //   ---------------------------------------------------------------------------
+
+  const [isLoadingInfoNft, setIsLoadingInfoNft] = useState(false);
+  const [infoNftData, setInfoNftData] = useState([]);
+  const [infoNftUsers, setInfoNftUsers] = useState([]);
+
+  const infoNftURL = 'http://localhost:3001/infoNft';
+
+  const getInfoNftData = async () => {
+    setIsLoadingInfoNft(true);
+
+    try {
+      const responseData = await axios.get(infoNftURL);
+      const responseUsers = await axios.get(usersURL);
+
+      setInfoNftData(responseData.data);
+      setInfoNftUsers(responseUsers.data);
+      setIsLoadingInfoNft(false);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getInfoNftData", произошла ошибка');
+    } finally {
+      setIsLoadingInfoNft(false);
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const [isLoadingHowItWorks, setIsLoadingHowItWorks] = useState(false);
+  const [howItWorksData, setHowItWorksData] = useState([]);
+
+  const howItWorksURL = 'http://localhost:3001/howItWorks';
+
+  const getHowItWorksData = async () => {
+    setIsLoadingHowItWorks(true);
+
+    try {
+      const response = await axios.get(howItWorksURL);
+
+      setHowItWorksData(response.data);
+      setIsLoadingHowItWorks(false);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getHowItWorksData", произошла ошибка');
+    } finally {
+      setIsLoadingHowItWorks(false);
+    }
+  };
+
   return (
     <Context.Provider
       value={{
@@ -219,6 +274,7 @@ export const ContextProvider = ({ children }) => {
         getTrendingCollectionData,
         size,
         resizeHandler,
+        genereteRandomNum,
         isLoadingTopRatedArtists,
         TopRatedArtistsData,
         TopRatedArtistsUsers,
@@ -230,6 +286,13 @@ export const ContextProvider = ({ children }) => {
         discoverMoreData,
         discoverMoreUsers,
         getDiscoverMoreData,
+        isLoadingInfoNft,
+        infoNftData,
+        infoNftUsers,
+        getInfoNftData,
+        isLoadingHowItWorks,
+        howItWorksData,
+        getHowItWorksData,
       }}
     >
       {children}

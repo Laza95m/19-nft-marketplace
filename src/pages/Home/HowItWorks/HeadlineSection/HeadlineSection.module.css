@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.subtitle {
+  font-size: 22px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

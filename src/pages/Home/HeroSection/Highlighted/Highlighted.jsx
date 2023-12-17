@@ -7,7 +7,7 @@ const Highlighted = () => {
 
   return (
     <>
-      {highlightedData && (
+      {!!highlightedData && (
         <div className={s.container}>
           <div className={s.block_one}>
             <img

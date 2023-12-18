@@ -186,6 +186,14 @@
       "btnSrc": "/discoverMore/eye.svg",
       "btnAlt": "eye_broken",
       "btnText": "See All"
+    },
+    {
+      "id": 2,
+      "colon": ":",
+      "title": "Auction ends in:",
+      "hourText": "Hours",
+      "minuteText": "Minutes",
+      "secondText": "Seconds"
     }
   ],
   "howItWorks": [

@@ -41,7 +41,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "Distant Galaxy",
           "price": 1.63,
-          "highestBid": 2.05
+          "highestBid": 2.05,
+          "timerHours": 60
         }
       ]
     },
@@ -86,7 +87,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "Life On Edena",
           "price": 1.15,
-          "highestBid": 4.51
+          "highestBid": 4.51,
+          "timerHours": 60
         }
       ]
     },
@@ -131,7 +133,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "AstroFiction",
           "price": 0.84,
-          "highestBid": 1.55
+          "highestBid": 1.55,
+          "timerHours": 60
         }
       ]
     },
@@ -176,7 +179,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "CryptoCity",
           "price": 4.01,
-          "highestBid": 4.05
+          "highestBid": 4.05,
+          "timerHours": 60
         }
       ]
     },
@@ -221,7 +225,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "Space Travel",
           "price": 0.99,
-          "highestBid": 1.05
+          "highestBid": 1.05,
+          "timerHours": 60
         }
       ]
     },
@@ -266,7 +271,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "Space Walking",
           "price": 1.9,
-          "highestBid": 2.31
+          "highestBid": 2.31,
+          "timerHours": 60
         }
       ]
     },
@@ -311,7 +317,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "Cherry Blossom",
           "price": 5.21,
-          "highestBid": 5.29
+          "highestBid": 5.29,
+          "timerHours": 60
         }
       ]
     },
@@ -356,7 +363,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "Disco Machines",
           "price": 3.44,
-          "highestBid": 4.09
+          "highestBid": 4.09,
+          "timerHours": 60
         },
         {
           "id": 2,
@@ -364,7 +372,8 @@
           "nftAlt": "nft_2_broken",
           "nftName": "Disco Machines",
           "price": 0.22,
-          "highestBid": 1.52
+          "highestBid": 1.52,
+          "timerHours": 60
         },
         {
           "id": 3,
@@ -372,7 +381,8 @@
           "nftAlt": "nft_3_broken",
           "nftName": "Disco Machines",
           "price": 2.74,
-          "highestBid": 2.95
+          "highestBid": 2.95,
+          "timerHours": 60
         }
       ]
     },
@@ -417,7 +427,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "Sunset Dimension",
           "price": 0.1,
-          "highestBid": 1.77
+          "highestBid": 1.77,
+          "timerHours": 60
         }
       ]
     },
@@ -462,7 +473,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "Magic Mushrooms",
           "price": 7.0,
-          "highestBid": 7.75
+          "highestBid": 7.75,
+          "timerHours": 60
         },
         {
           "id": 2,
@@ -470,7 +482,8 @@
           "nftAlt": "nft_2_broken",
           "nftName": "Magic Mushrooms",
           "price": 3.0,
-          "highestBid": 3.27
+          "highestBid": 3.27,
+          "timerHours": 60
         },
         {
           "id": 3,
@@ -478,7 +491,8 @@
           "nftAlt": "nft_3_broken",
           "nftName": "Magic Mushrooms",
           "price": 1.0,
-          "highestBid": 2.52
+          "highestBid": 2.52,
+          "timerHours": 60
         }
       ]
     },
@@ -523,7 +537,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "Desert Walk",
           "price": 4.45,
-          "highestBid": 4.67
+          "highestBid": 4.67,
+          "timerHours": 60
         }
       ]
     },
@@ -568,7 +583,8 @@
           "nftAlt": "nft_1_broken",
           "nftName": "DSGN Animals",
           "price": 2.95,
-          "highestBid": 3.64
+          "highestBid": 3.64,
+          "timerHours": 60
         },
         {
           "id": 2,
@@ -576,7 +592,8 @@
           "nftAlt": "nft_2_broken",
           "nftName": "DSGN Animals",
           "price": 0.86,
-          "highestBid": 1.01
+          "highestBid": 1.01,
+          "timerHours": 60
         },
         {
           "id": 3,
@@ -584,7 +601,8 @@
           "nftAlt": "nft_3_broken",
           "nftName": "DSGN Animals",
           "price": 1.53,
-          "highestBid": 1.71
+          "highestBid": 1.71,
+          "timerHours": 60
         }
       ]
     }

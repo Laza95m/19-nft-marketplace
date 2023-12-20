@@ -1,0 +1,40 @@
+.section {
+  padding: 40px 115px 80px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  border-radius: 20px;
+  background: var(--background---Secondary);
+  padding: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+  .section {
+    padding: 40px 72px 80px;
+    max-width: 835px;
+  }
+
+  .block {
+    gap: 30px;
+    padding: 40px 30px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .section {
+    padding: 40px 30px;
+    max-width: 390px;
+  }
+
+  .block {
+    flex-direction: column;
+    background: transparent;
+    padding: 0;
+  }
+}

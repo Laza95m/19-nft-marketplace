@@ -87,6 +87,21 @@ export const ContextProvider = ({ children }) => {
 
   //   ---------------------------------------------------------------------------
 
+  const ms = 3600000;
+
+  const calculateTimeRemaining = (days, deadline, setTimeRemaining) => {
+    const time = Date.parse(deadline) - Date.now();
+
+    setTimeRemaining({
+      days: Math.floor(time / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((time / (1000 * 60 * 60)) % 24) + days * 24,
+      minutes: Math.floor((time / 1000 / 60) % 60),
+      seconds: Math.floor((time / 1000) % 60),
+    });
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const [isLoadingHeroSection, setIsLoadingHeroSection] = useState(false);
   const [heroSectionData, setHeroSectionData] = useState([]);
 
@@ -258,6 +273,30 @@ export const ContextProvider = ({ children }) => {
     }
   };
 
+  //   ---------------------------------------------------------------------------
+
+  const [isLoadingSubscribeWidget, setIsLoadingSubscribeWidget] =
+    useState(false);
+  const [subscribeWidgetData, setSubscribeWidgetData] = useState([]);
+
+  const subscribeWidgetURL = 'http://localhost:3001/subscribeWidget';
+
+  const getSubscribeWidgetData = async () => {
+    setIsLoadingSubscribeWidget(true);
+
+    try {
+      const response = await axios.get(subscribeWidgetURL);
+
+      setSubscribeWidgetData(response.data);
+      setIsLoadingSubscribeWidget(false);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getSubscribeWidgetData", произошла ошибка');
+    } finally {
+      setIsLoadingSubscribeWidget(false);
+    }
+  };
+
   return (
     <Context.Provider
       value={{
@@ -293,6 +332,11 @@ export const ContextProvider = ({ children }) => {
         isLoadingHowItWorks,
         howItWorksData,
         getHowItWorksData,
+        isLoadingSubscribeWidget,
+        subscribeWidgetData,
+        getSubscribeWidgetData,
+        ms,
+        calculateTimeRemaining,
       }}
     >
       {children}

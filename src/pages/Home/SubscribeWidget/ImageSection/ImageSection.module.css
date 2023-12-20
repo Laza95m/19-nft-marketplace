@@ -1,0 +1,23 @@
+.block {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 425px;
+  min-width: 327px;
+  height: 453px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .block {
+    height: 497px;
+    min-width: 284px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .block {
+    width: 315px;
+    height: 255px;
+  }
+}

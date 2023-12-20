@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 425px;
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 38px;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  font-size: 22px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form > :is(.inpName, .inpPhone, .textarea)::placeholder {
+  color: var(--background);
+}
+
+.form > :is(.inpName, .inpPhone, .textarea):focus {
+  outline: auto;
+  outline-color: var(--call-to-Action);
+}
+
+.form > :is(.inpName, .inpPhone, .textarea) {
+  color: var(--background);
+  border-radius: 10px;
+  padding: 16px 20px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.btnSendMes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: var(--call-to-Action);
+  border-radius: 10px;
+  padding: 16px 20px;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btnSendMes:hover {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .form > :is(.inpName, .inpPhone, .textarea, .btnSendMes) {
+    padding: 12px 20px;
+  }
+}

@@ -20,7 +20,7 @@ const InfoNft = () => {
           <div className={s.container}>
             <div className={s.block}>
               <ArtstNft nftUsers={nftUsers} />
-              <AuctionTimer nftUsers={nftUsers}/>
+              <AuctionTimer nftUsers={nftUsers} />
             </div>
           </div>
         </section>

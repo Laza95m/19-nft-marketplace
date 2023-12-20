@@ -9,6 +9,7 @@ import BrowseCategories from './BrowseCategories/BrowseCategories';
 import DiscoverMore from './DiscoverMore/DiscoverMore';
 import InfoNft from './InfoNft/InfoNft';
 import HowItWorks from './HowItWorks/HowItWorks';
+import SubscribeWidget from './SubscribeWidget/SubscribeWidget';
 
 const Home = () => {
   const {
@@ -26,6 +27,8 @@ const Home = () => {
     getInfoNftData,
     isLoadingHowItWorks,
     getHowItWorksData,
+    isLoadingSubscribeWidget,
+    getSubscribeWidgetData,
     resizeHandler,
   } = myContext();
 
@@ -37,6 +40,7 @@ const Home = () => {
     getDiscoverMoreData();
     getInfoNftData();
     getHowItWorksData();
+    getSubscribeWidgetData();
   }, []);
 
   // useEffect(() => {
@@ -57,6 +61,7 @@ const Home = () => {
       {isLoadingDiscoverMore ? <Loader /> : <DiscoverMore />}
       {isLoadingInfoNft ? <Loader /> : <InfoNft />}
       {isLoadingHowItWorks ? <Loader /> : <HowItWorks />}
+      {isLoadingSubscribeWidget ? <Loader /> : <SubscribeWidget />}
     </>
   );
 };

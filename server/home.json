@@ -225,5 +225,22 @@
         "description": "Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."
       }
     ]
+  ],
+  "subscribeWidget": [
+    {
+      "id": 1,
+      "imgUrl": "/subscribeWidget/main.png"
+    },
+    {
+      "id": 2,
+      "title": "Have a Question?",
+      "subtitle": "Contact us!",
+      "inpName": "Name*",
+      "inpPhone": "Phone*",
+      "inpTextarea": "Message*",
+      "inpSendMes": "Send Message",
+      "imgSrc": "/subscribeWidget//envelope.svg",
+      "imgAlt": "envelope_broken"
+    }
   ]
 }

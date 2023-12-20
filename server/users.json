@@ -88,7 +88,7 @@
           "nftName": "Life On Edena",
           "price": 1.15,
           "highestBid": 4.51,
-          "timerHours": 60
+          "timerHours": 50
         }
       ]
     },
@@ -134,7 +134,7 @@
           "nftName": "AstroFiction",
           "price": 0.84,
           "highestBid": 1.55,
-          "timerHours": 60
+          "timerHours": 40
         }
       ]
     },
@@ -180,7 +180,7 @@
           "nftName": "CryptoCity",
           "price": 4.01,
           "highestBid": 4.05,
-          "timerHours": 60
+          "timerHours": 30
         }
       ]
     },
@@ -226,7 +226,7 @@
           "nftName": "Space Travel",
           "price": 0.99,
           "highestBid": 1.05,
-          "timerHours": 60
+          "timerHours": 20
         }
       ]
     },
@@ -272,7 +272,7 @@
           "nftName": "Space Walking",
           "price": 1.9,
           "highestBid": 2.31,
-          "timerHours": 60
+          "timerHours": 10
         }
       ]
     },
@@ -318,7 +318,7 @@
           "nftName": "Cherry Blossom",
           "price": 5.21,
           "highestBid": 5.29,
-          "timerHours": 60
+          "timerHours": 70
         }
       ]
     },
@@ -364,7 +364,7 @@
           "nftName": "Disco Machines",
           "price": 3.44,
           "highestBid": 4.09,
-          "timerHours": 60
+          "timerHours": 80
         },
         {
           "id": 2,
@@ -373,7 +373,7 @@
           "nftName": "Disco Machines",
           "price": 0.22,
           "highestBid": 1.52,
-          "timerHours": 60
+          "timerHours": 90
         },
         {
           "id": 3,
@@ -382,7 +382,7 @@
           "nftName": "Disco Machines",
           "price": 2.74,
           "highestBid": 2.95,
-          "timerHours": 60
+          "timerHours": 16
         }
       ]
     },
@@ -428,7 +428,7 @@
           "nftName": "Sunset Dimension",
           "price": 0.1,
           "highestBid": 1.77,
-          "timerHours": 60
+          "timerHours": 15
         }
       ]
     },
@@ -474,7 +474,7 @@
           "nftName": "Magic Mushrooms",
           "price": 7.0,
           "highestBid": 7.75,
-          "timerHours": 60
+          "timerHours": 14
         },
         {
           "id": 2,
@@ -483,7 +483,7 @@
           "nftName": "Magic Mushrooms",
           "price": 3.0,
           "highestBid": 3.27,
-          "timerHours": 60
+          "timerHours": 13
         },
         {
           "id": 3,
@@ -492,7 +492,7 @@
           "nftName": "Magic Mushrooms",
           "price": 1.0,
           "highestBid": 2.52,
-          "timerHours": 60
+          "timerHours": 12
         }
       ]
     },
@@ -538,7 +538,7 @@
           "nftName": "Desert Walk",
           "price": 4.45,
           "highestBid": 4.67,
-          "timerHours": 60
+          "timerHours": 11
         }
       ]
     },
@@ -584,7 +584,7 @@
           "nftName": "DSGN Animals",
           "price": 2.95,
           "highestBid": 3.64,
-          "timerHours": 60
+          "timerHours": 26
         },
         {
           "id": 2,
@@ -593,7 +593,7 @@
           "nftName": "DSGN Animals",
           "price": 0.86,
           "highestBid": 1.01,
-          "timerHours": 60
+          "timerHours": 27
         },
         {
           "id": 3,
@@ -602,7 +602,7 @@
           "nftName": "DSGN Animals",
           "price": 1.53,
           "highestBid": 1.71,
-          "timerHours": 60
+          "timerHours": 28
         }
       ]
     }

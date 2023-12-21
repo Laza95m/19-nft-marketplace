@@ -3,9 +3,11 @@
 :root {
   --background: #2b2b2b;
   --white: #ffffff;
+  --gray: #ccc;
   --call-to-Action: #a259ff;
   --background---Secondary: #3b3b3b;
   --caption-label-text: #858584;
+  --error-message: #ff3333;
 }
 
 * {

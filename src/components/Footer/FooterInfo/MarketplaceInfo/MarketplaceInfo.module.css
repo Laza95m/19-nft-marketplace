@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 243px;
+}
+
+.block_one {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.logo_text {
+  margin-top: 5px;
+  width: 200px;
+  height: 20px;
+}
+
+.text_one,
+.text_two {
+  color: var(--gray);
+  line-height: 22px;
+}
+
+.text_two {
+  margin-bottom: -5px;
+}
+
+.block_two {
+  display: flex;
+  gap: 10px;
+}
+
+.link {
+  transition: 0.3s;
+}
+
+.link:hover {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: auto;
+  }
+}

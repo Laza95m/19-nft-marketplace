@@ -57,6 +57,59 @@ export const ContextProvider = ({ children }) => {
 
   //   ---------------------------------------------------------------------------
 
+  const validName = {
+    required: 'The name is required',
+    pattern: {
+      value: /^[A-ZА-Я]{1}[a-zа-я]{1,20}$/gm,
+      message: 'Enter valid name like: Dominik',
+    },
+    maxLength: {
+      value: 20,
+      message: 'Maximum length is 20',
+    },
+  };
+
+  const validPhone = {
+    required: 'The phone is required',
+    pattern: {
+      value: /[+](998)[3-9]{1}[0-9]{1}[0-9]{7}$/gm,
+      message: 'Enter valid phone like: +998331112233',
+    },
+    maxLength: {
+      value: 13,
+      message: 'Maximum length is 13',
+    },
+  };
+
+  const validMessage = {
+    required: 'The phone is required',
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const sendTelegramMessage = async (data) => {
+    const message = `Name: ${data.name}
+Phone: ${data.phone}
+Message: ${data.message}`;
+
+    const token = '6629321266:AAGBx6mSrJ8wI0DxYPAxYE6MC3Ckk1iH9vc';
+    const chatId = '-4098685554';
+    const urlApi = `https://api.telegram.org/bot${token}/sendMessage`;
+
+    try {
+      await axios.post(urlApi, {
+        chat_id: chatId,
+        text: message,
+      });
+
+      console.log('sendTelegramMessage Good');
+    } catch (error) {
+      console.log('sendTelegramMessage Bad');
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const [isPopup, setIsPopup] = useState(false);
 
   const openPopup = () => {
@@ -300,8 +353,12 @@ export const ContextProvider = ({ children }) => {
   return (
     <Context.Provider
       value={{
+        validMessage,
         links,
         publicPages,
+        validName,
+        validPhone,
+        sendTelegramMessage,
         isPopup,
         openPopup,
         closePopup,

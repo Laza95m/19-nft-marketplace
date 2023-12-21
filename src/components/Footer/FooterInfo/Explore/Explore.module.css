@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 240px;
+}
+
+.title {
+  font-family: Space Mono;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link {
+  color: var(--gray);
+  line-height: 22px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.link:hover {
+  transform: scale(0.95);
+}

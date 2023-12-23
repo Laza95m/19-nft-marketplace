@@ -46,8 +46,8 @@ const MarketplaceInfo = () => {
         <p className={s.text_two}>Join our community</p>
         <div className={s.block_two}>
           {!!socialNetworkIcons &&
-            socialNetworkIcons.map((el) => (
-              <a className={s.link} href={el.link} target="_blank">
+            socialNetworkIcons.map((el,i) => (
+              <a key={i} className={s.link} href={el.link} target="_blank">
                 <img src={el.imgSrc} alt={el.imgAlt} />
               </a>
             ))}

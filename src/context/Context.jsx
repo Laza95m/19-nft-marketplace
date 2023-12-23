@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from 'react';
 import Home from '../pages/Home/Home';
+import CreateAccount from '../pages/CreateAccount/CreateAccount';
 import axios from 'axios';
 
 const Context = createContext();
@@ -51,7 +52,7 @@ export const ContextProvider = ({ children }) => {
     },
     {
       path: '/create-account',
-      element: '',
+      element: <CreateAccount />,
     },
   ];
 
@@ -82,7 +83,7 @@ export const ContextProvider = ({ children }) => {
   };
 
   const validMessage = {
-    required: 'The phone is required',
+    required: 'The message is required',
   };
 
   //   ---------------------------------------------------------------------------

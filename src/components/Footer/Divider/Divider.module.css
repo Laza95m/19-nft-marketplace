@@ -1,0 +1,10 @@
+.block {
+  padding-top: 20px;
+  border-top: 1px var(--caption-label-text) solid;
+}
+
+.text {
+  color: var(--gray);
+  font-size: 12px;
+  line-height: 13px;
+}

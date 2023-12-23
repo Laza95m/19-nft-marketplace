@@ -23,8 +23,8 @@ const Explore = () => {
         <h5 className={s.title}>Explore</h5>
         <div className={s.block}>
           {!!links &&
-            links.map((el) => (
-              <Link className={s.link} to={el.to}>
+            links.map((el,i) => (
+              <Link key={i} className={s.link} to={el.to}>
                 {el.name}
               </Link>
             ))}

@@ -1,8 +1,8 @@
 import s from './AuctionTimer.module.css';
 import { myContext } from '../../../../context/Context';
-import { useEffect, useState } from 'react';
+import { memo, useEffect, useState } from 'react';
 
-const AuctionTimer = ({ nftUsers }) => {
+const AuctionTimer = memo(({ nftUsers }) => {
   const { infoNftData, ms, calculateTimeRemaining } = myContext();
   const auctionTimerData = infoNftData[1];
   const timerUser = nftUsers.nfts[0].timerHours;
@@ -62,6 +62,6 @@ const AuctionTimer = ({ nftUsers }) => {
       )}
     </>
   );
-};
+});
 
 export default AuctionTimer;

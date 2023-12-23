@@ -10,6 +10,7 @@ const ContactForm = () => {
     validMessage,
     sendTelegramMessage,
   } = myContext();
+
   const contactFormData = subscribeWidgetData[1];
 
   const {
@@ -40,6 +41,7 @@ const ContactForm = () => {
             >
               <input
                 {...register('name', validName)}
+                type="text"
                 className={s.inpName}
                 placeholder={contactFormData.inpName}
               />
@@ -48,6 +50,7 @@ const ContactForm = () => {
               )}
               <input
                 {...register('phone', validPhone)}
+                type="tel"
                 className={s.inpPhone}
                 placeholder={contactFormData.inpPhone}
               />

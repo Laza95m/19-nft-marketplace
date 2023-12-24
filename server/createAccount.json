@@ -1,0 +1,19 @@
+{
+  "createAccount": {
+    "id": 1,
+    "imgUrl": "/createAccount/main.png",
+    "title": "Create account",
+    "subtitle": "Welcome! enter your details and start creating, collecting and selling NFTs.",
+    "userSrc": "/public/createAccount/user.svg",
+    "userAlt": "user_broken",
+    "userText": "Fullname",
+    "envelopeSrc": "/public/createAccount/envelope.svg",
+    "envelopeAlt": "envelope_broken",
+    "envelopeText": "Email Address",
+    "lockKeySrc": "/public/createAccount/lockKey.svg",
+    "lockKeyAlt": "lockKey_broken",
+    "lockKeyFirstText": "Password",
+    "lockKeySecondText": "Confirm Password",
+    "submitText": "Create account"
+  }
+}

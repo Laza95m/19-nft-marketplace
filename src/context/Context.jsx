@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useEffect, useState } from 'react';
 import Home from '../pages/Home/Home';
 import CreateAccount from '../pages/CreateAccount/CreateAccount';
 import axios from 'axios';
@@ -61,7 +61,7 @@ export const ContextProvider = ({ children }) => {
   const validName = {
     required: 'The name is required',
     pattern: {
-      value: /^[A-ZА-Я]{1}[a-zа-я]{1,20}$/gm,
+      value: /^[A-Z]{1}[a-z]{1,20}$/gm,
       message: 'Enter valid name like: Dominik',
     },
     maxLength: {
@@ -84,6 +84,40 @@ export const ContextProvider = ({ children }) => {
 
   const validMessage = {
     required: 'The message is required',
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const validFullname = {
+    required: 'The fullname is required',
+    pattern: {
+      value: /(^[A-Z]{1})([a-z]{1,16})([ ]{1})([A-Z]{1})([a-z]{1,16})$/,
+      message: 'Enter valid fullname like: Jeff Johnson',
+    },
+    minLength: {
+      value: 9,
+      message: 'minimum length is 9',
+    },
+    maxLength: {
+      value: 35,
+      message: 'Maximum length is 35',
+    },
+  };
+
+  const validEmail = {
+    required: 'The email is required',
+    pattern: {
+      value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g,
+      message: 'Enter valid email like: bob7.h@gmail.com',
+    },
+  };
+
+  const validPassword = {
+    required: 'The password is required',
+    minLength: {
+      value: 6,
+      message: 'minimum length is 6',
+    },
   };
 
   //   ---------------------------------------------------------------------------
@@ -351,6 +385,93 @@ Message: ${data.message}`;
     }
   };
 
+  //   ---------------------------------------------------------------------------
+
+  const [isLoadingCreateAccount, setIsLoadingCreateAccount] = useState(false);
+  const [createAccountData, setCreateAccountData] = useState([]);
+
+  const createAccountURL = 'http://localhost:3003/createAccount';
+
+  const getCreateAccountData = async () => {
+    setIsLoadingCreateAccount(true);
+
+    try {
+      const response = await axios.get(createAccountURL);
+
+      setCreateAccountData(response.data);
+      setIsLoadingCreateAccount(false);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getCreateAccountData", произошла ошибка');
+    } finally {
+      setIsLoadingCreateAccount(false);
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const [usersData, setUsersData] = useState([]);
+
+  const getUsersData = async () => {
+    try {
+      const response = await axios.get(usersURL);
+
+      setUsersData(response.data);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getUsersData", произошла ошибка');
+    }
+  };
+
+  const addNewUser = async (data) => {
+    const newUser = {
+      id: usersData.length + 1,
+      primarySrc: '',
+      primaryAlt: 'broken',
+      fullName: data.fullName,
+      nickName: '',
+      password: data.password,
+      totalSale: 0,
+      totalsSold: 0,
+      followers: 0,
+      linkPath: '2905gutsmeioRIOERIMOES<PRESI94385904IEMV',
+      bio: '',
+      change: '0%',
+      links: [
+        {
+          id: 1,
+          globalLink: '',
+        },
+        {
+          id: 2,
+          discordLink: 'https://discord.com/',
+        },
+        {
+          id: 3,
+          youtubeLink: 'https://www.youtube.com/',
+        },
+        {
+          id: 4,
+          twitterLink: 'https://twitter.com/',
+        },
+        {
+          id: 5,
+          instagramLink: 'https://www.instagram.com/',
+        },
+      ],
+      nfts: [],
+    };
+
+    try {
+      await axios.post(usersURL, {
+        ...newUser,
+      });
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "addNewUser", произошла ошибка');
+    }
+  };
+
   return (
     <Context.Provider
       value={{
@@ -359,6 +480,9 @@ Message: ${data.message}`;
         publicPages,
         validName,
         validPhone,
+        validFullname,
+        validEmail,
+        validPassword,
         sendTelegramMessage,
         isPopup,
         openPopup,
@@ -393,8 +517,13 @@ Message: ${data.message}`;
         isLoadingSubscribeWidget,
         subscribeWidgetData,
         getSubscribeWidgetData,
+        isLoadingCreateAccount,
+        createAccountData,
+        getCreateAccountData,
         ms,
         calculateTimeRemaining,
+        getUsersData,
+        addNewUser,
       }}
     >
       {children}

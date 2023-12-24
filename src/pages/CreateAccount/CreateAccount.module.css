@@ -5,11 +5,27 @@
 }
 
 .block_one {
+  overflow: hidden;
+  height: 691px;
+  width: 100%;
+}
+
+.box_one {
   height: 691px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  animation: img 2s infinite alternate;
+}
+
+@keyframes img {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
 
 .img {
@@ -23,7 +39,7 @@
   width: 100%;
 }
 
-.box {
+.box_two {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -52,7 +68,11 @@
     height: 615px;
   }
 
-  .box {
+  .box_one {
+    height: 615px;
+  }
+
+  .box_two {
     max-width: 325px;
   }
 
@@ -74,6 +94,10 @@
   }
 
   .block_one {
+    height: 232px;
+  }
+
+  .box_one {
     height: 232px;
   }
 

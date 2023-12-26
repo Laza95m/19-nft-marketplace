@@ -21,8 +21,8 @@ const FormCreate = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    // addNewUser(data);
-    // reset();
+    addNewUser(data);
+    reset();
   };
 
   const validConfirmPassword = {

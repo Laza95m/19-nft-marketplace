@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 import Home from '../pages/Home/Home';
 import CreateAccount from '../pages/CreateAccount/CreateAccount';
+import ConnectWallet from '../pages/ConnectWallet/ConnectWallet';
 import axios from 'axios';
 
 const Context = createContext();
@@ -44,7 +45,7 @@ export const ContextProvider = ({ children }) => {
     },
     {
       path: '/connect-a-wallet',
-      element: '',
+      element: <ConnectWallet />,
     },
     {
       path: '/sign-up',
@@ -410,6 +411,29 @@ Message: ${data.message}`;
 
   //   ---------------------------------------------------------------------------
 
+  const [isLoadingConnectWallet, setIsLoadingConnectWallet] = useState(false);
+  const [connectWalletData, setConnectWalletData] = useState([]);
+
+  const connectWalletURL = 'http://localhost:3004/connectWallet';
+
+  const getConnectWalletData = async () => {
+    setIsLoadingConnectWallet(true);
+
+    try {
+      const response = await axios.get(connectWalletURL);
+
+      setConnectWalletData(response.data);
+      setIsLoadingConnectWallet(false);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getConnectWalletData", произошла ошибка');
+    } finally {
+      setIsLoadingConnectWallet(false);
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const [usersData, setUsersData] = useState([]);
 
   const getUsersData = async () => {
@@ -434,7 +458,6 @@ Message: ${data.message}`;
       totalSale: 0,
       totalsSold: 0,
       followers: 0,
-      linkPath: '2905gutsmeioRIOERIMOES<PRESI94385904IEMV',
       bio: '',
       change: '0%',
       links: [
@@ -466,6 +489,8 @@ Message: ${data.message}`;
       await axios.post(usersURL, {
         ...newUser,
       });
+
+      alert('Аккаунт создан успешно');
     } catch (error) {
       console.log(error);
       alert('В функции - "addNewUser", произошла ошибка');
@@ -520,6 +545,9 @@ Message: ${data.message}`;
         isLoadingCreateAccount,
         createAccountData,
         getCreateAccountData,
+        isLoadingConnectWallet,
+        connectWalletData,
+        getConnectWalletData,
         ms,
         calculateTimeRemaining,
         getUsersData,

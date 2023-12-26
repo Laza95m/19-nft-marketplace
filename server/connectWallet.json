@@ -1,0 +1,31 @@
+{
+  "connectWallet": {
+    "id": 1,
+    "imgUrl": "/connectWallet/main.png",
+    "title": "Connect wallet",
+    "subtitle": "Choose a wallet you want to connect. There are several wallet providers.",
+    "links": [
+      {
+        "id": 1,
+        "href": "https://metamask.io/",
+        "iconSrc": "/connectWallet/metamask.svg",
+        "iconAlt": "icon_broken",
+        "text": "Metamask"
+      },
+      {
+        "id": 2,
+        "href": "https://walletconnect.com/",
+        "iconSrc": "/connectWallet/walletConnect.svg",
+        "iconAlt": "icon_broken",
+        "text": "Wallet Connect"
+      },
+      {
+        "id": 3,
+        "href": "https://www.coinbase.com/ru/",
+        "iconSrc": "/connectWallet/coinbase.svg",
+        "iconAlt": "icon_broken",
+        "text": "Coinbase"
+      }
+    ]
+  }
+}

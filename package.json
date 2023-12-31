@@ -9,7 +9,8 @@
     "serverUsers": "npx json-server --watch server/users.json --port 3002",
     "serverCreateAccount": "npx json-server --watch server/createAccount.json --port 3003",
     "serverConnectWallet": "npx json-server --watch server/connectWallet.json --port 3004",
-    "start": "concurrently \"npm run dev\" \"npm run serverHome\" \"npm run serverUsers\" \"npm run serverCreateAccount\" \"npm run serverConnectWallet\" ",
+    "serverSignUp": "npx json-server --watch server/signUp.json --port 3005",
+    "start": "concurrently \"npm run dev\" \"npm run serverHome\" \"npm run serverUsers\" \"npm run serverCreateAccount\" \"npm run serverConnectWallet\" \"npm run serverSignUp\" ",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

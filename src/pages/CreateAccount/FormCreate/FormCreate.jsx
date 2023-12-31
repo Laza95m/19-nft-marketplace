@@ -20,7 +20,6 @@ const FormCreate = () => {
   } = useForm({ mode: 'onChange' });
 
   const onSubmit = (data) => {
-    console.log(data);
     addNewUser(data);
     reset();
   };
@@ -46,7 +45,7 @@ const FormCreate = () => {
           autoComplete="off"
         >
           <div className={s.block}>
-            <div className={s.box}>
+            <label className={s.box}>
               <img
                 className={s.img}
                 src={createAccountData.userSrc}
@@ -58,11 +57,11 @@ const FormCreate = () => {
                 type="text"
                 placeholder={createAccountData.userText}
               />
-            </div>
+            </label>
             {!!errors.fullname && (
               <p className={s.error}>{errors.fullname.message}</p>
             )}
-            <div className={s.box}>
+            <label className={s.box}>
               <img
                 className={s.img}
                 src={createAccountData.envelopeSrc}
@@ -74,11 +73,11 @@ const FormCreate = () => {
                 type="email"
                 placeholder={createAccountData.envelopeText}
               />
-            </div>
+            </label>
             {!!errors.email && (
               <p className={s.error}>{errors.email.message}</p>
             )}
-            <div className={s.box}>
+            <label className={s.box}>
               <img
                 className={s.img}
                 src={createAccountData.lockKeySrc}
@@ -90,11 +89,11 @@ const FormCreate = () => {
                 type="password"
                 placeholder={createAccountData.lockKeyFirstText}
               />
-            </div>
+            </label>
             {!!errors.password && (
               <p className={s.error}>{errors.password.message}</p>
             )}
-            <div className={s.box}>
+            <label className={s.box}>
               <img
                 className={s.img}
                 src={createAccountData.lockKeySrc}
@@ -106,7 +105,7 @@ const FormCreate = () => {
                 type="password"
                 placeholder={createAccountData.lockKeySecondText}
               />
-            </div>
+            </label>
             {!!errors.confirmSecond && (
               <p className={s.error}>{errors.confirmSecond.message}</p>
             )}

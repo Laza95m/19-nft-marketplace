@@ -3,6 +3,8 @@ import Home from '../pages/Home/Home';
 import CreateAccount from '../pages/CreateAccount/CreateAccount';
 import ConnectWallet from '../pages/ConnectWallet/ConnectWallet';
 import axios from 'axios';
+import SignUp from '../pages/SignUp/SignUp';
+import { useNavigate } from 'react-router-dom';
 
 const Context = createContext();
 
@@ -11,6 +13,10 @@ export const myContext = () => {
 };
 
 export const ContextProvider = ({ children }) => {
+  const navigate = useNavigate();
+
+  //   ---------------------------------------------------------------------------
+
   const links = [
     {
       to: '/marketplace',
@@ -49,7 +55,7 @@ export const ContextProvider = ({ children }) => {
     },
     {
       path: '/sign-up',
-      element: '',
+      element: <SignUp />,
     },
     {
       path: '/create-account',
@@ -434,6 +440,29 @@ Message: ${data.message}`;
 
   //   ---------------------------------------------------------------------------
 
+  const [isLoadingSignUp, setIsLoadingSignUp] = useState(false);
+  const [signUpData, setSignUpData] = useState([]);
+
+  const signUpURL = 'http://localhost:3005/signUp';
+
+  const getSignUpData = async () => {
+    setIsLoadingSignUp(true);
+
+    try {
+      const response = await axios.get(signUpURL);
+
+      setSignUpData(response.data);
+      setIsLoadingSignUp(false);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getSignUpData", произошла ошибка');
+    } finally {
+      setIsLoadingSignUp(false);
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const [usersData, setUsersData] = useState([]);
 
   const getUsersData = async () => {
@@ -453,6 +482,7 @@ Message: ${data.message}`;
       primarySrc: '',
       primaryAlt: 'broken',
       fullName: data.fullName,
+      email: data.email,
       nickName: '',
       password: data.password,
       totalSale: 0,
@@ -497,9 +527,38 @@ Message: ${data.message}`;
     }
   };
 
+  //   ---------------------------------------------------------------------------
+
+  const [adminEnter, setAdminEnter] = useState(sessionStorage.getItem('admin'));
+
+  const [userEnter, setUserenter] = useState(
+    sessionStorage.getItem('fullName')
+  );
+
+  const checkUsersEmailPassword = (data) => {
+    let user;
+
+    user = usersData.find((el) => el.email === data.email);
+
+    if (!!user && data.password === user.password) {
+      sessionStorage.setItem('fullName', user.fullName);
+      sessionStorage.setItem('id', user.id);
+      alert('Данные введены верно');
+      // navigate('')
+    } else if (!!user && data.password !== user.password) {
+      alert('Пароль введён не верно');
+    } else {
+      alert('Данный email не зарегистрирован');
+    }
+  };
+
   return (
     <Context.Provider
       value={{
+        navigate,
+        adminEnter,
+        userEnter,
+        checkUsersEmailPassword,
         validMessage,
         links,
         publicPages,
@@ -548,9 +607,13 @@ Message: ${data.message}`;
         isLoadingConnectWallet,
         connectWalletData,
         getConnectWalletData,
+        isLoadingSignUp,
+        signUpData,
+        getSignUpData,
         ms,
         calculateTimeRemaining,
         getUsersData,
+        usersData,
         addNewUser,
       }}
     >

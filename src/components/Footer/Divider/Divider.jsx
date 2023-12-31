@@ -4,7 +4,7 @@ const Divider = () => {
   return (
     <>
       <div className={s.block}>
-        <p className={s.text}>Ⓒ NFT Market. Use this template freely.</p>
+        <p className={s.text}>Ⓒ NFT Market. IT-Academy (Laza_M)</p>
       </div>
     </>
   );

@@ -5,8 +5,6 @@ const WalletOptions = () => {
   const { connectWalletData } = myContext();
   const walletOptionsData = connectWalletData.links;
 
-  console.log(walletOptionsData);
-
   return (
     <>
       <div className={s.container}>

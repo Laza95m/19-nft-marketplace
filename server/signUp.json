@@ -1,0 +1,15 @@
+{
+  "signUp": {
+    "id": 1,
+    "imgUrl": "/signUp/main.png",
+    "title": "Welcome",
+    "subtitle": "We Are Glad To See You Back With Us",
+    "envelopeSrc": "/public/signUp/envelope.svg",
+    "envelopeAlt": "envelope_broken",
+    "envelopeText": "Email Address",
+    "lockKeySrc": "/public/signUp/lockKey.svg",
+    "lockKeyAlt": "lockKey_broken",
+    "lockKeyFirstText": "Password",
+    "submitText": "NEXT"
+  }
+}

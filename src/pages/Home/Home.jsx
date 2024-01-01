@@ -51,6 +51,7 @@ const Home = () => {
   //     window.removeEventListener('resize', resizeHandler);
   //   };
   // }, []);
+  console.log(123);
 
   return (
     <>

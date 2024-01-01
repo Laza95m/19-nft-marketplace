@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import { myContext } from '../../../context/Context';
 
 const NavLinks = () => {
-  const { links } = myContext();
+  const { links, userEnter, getTheFirstWord } = myContext();
+
+  const userName = getTheFirstWord(userEnter?.fullName);
 
   return (
     <>
@@ -13,12 +15,21 @@ const NavLinks = () => {
             <Link to={link.to}>{link.name}</Link>
           </li>
         ))}
-        <li>
-          <Link className={s.link} to={'/sign-up'}>
-            <img src="/header/user.svg" alt="user_broken" />
-            Sign Up
-          </Link>
-        </li>
+        {!!userName && !!userEnter ? (
+          <li>
+            <Link className={s.link} to={`/user-page/${userEnter.id}`}>
+              <img src="/header/user.svg" alt="user_broken" />
+              {userName}
+            </Link>
+          </li>
+        ) : (
+          <li>
+            <Link className={s.link} to={'/sign-up'}>
+              <img src="/header/user.svg" alt="user_broken" />
+              Sign Up
+            </Link>
+          </li>
+        )}
       </ul>
     </>
   );

@@ -13,9 +13,8 @@ const FormSignUp = () => {
   } = useForm({ mode: 'onChange' });
 
   const onSubmit = (data) => {
-    console.log(data);
     checkUsersEmailPassword(data);
-    // reset();
+    reset();
   };
 
   return (
@@ -55,8 +54,8 @@ const FormSignUp = () => {
               />
             </label>
             {/* {!!errors.password && (
-          <p className={s.error}>{errors.password.message}</p>
-        )} */}
+            <p className={s.error}>{errors.password.message}</p>
+            )} */}
           </div>
           <button className={s.inpSub} type="submit">
             NEXT

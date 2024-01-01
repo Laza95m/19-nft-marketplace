@@ -2,7 +2,8 @@
   "users": [
     {
       "id": 1,
-      "primarySrc": "userProfiles/user_1/userImg.png",
+      "backgroundImage": "/userProfiles/user_1/userBackground.png",
+      "primarySrc": "/userProfiles/user_1/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Jaydon Ekstrom",
       "email": "jaydon01.e@gmail.com",
@@ -49,7 +50,8 @@
     },
     {
       "id": 2,
-      "primarySrc": "userProfiles/user_2/userImg.png",
+      "backgroundImage": "/userProfiles/user_2/userBackground.png",
+      "primarySrc": "/userProfiles/user_2/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Ruben Carder",
       "email": "ruben02.c@gmail.com",
@@ -96,7 +98,8 @@
     },
     {
       "id": 3,
-      "primarySrc": "userProfiles/user_3/userImg.png",
+      "backgroundImage": "/userProfiles/user_3/userBackground.png",
+      "primarySrc": "/userProfiles/user_3/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Alfredo Septimus",
       "email": "alfredo03.s@gmail.com",
@@ -143,7 +146,8 @@
     },
     {
       "id": 4,
-      "primarySrc": "userProfiles/user_4/userImg.png",
+      "backgroundImage": "/userProfiles/user_4/userBackground.png",
+      "primarySrc": "/userProfiles/user_4/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Davis Franci",
       "email": "davis04.f@gmail.com",
@@ -190,7 +194,8 @@
     },
     {
       "id": 5,
-      "primarySrc": "userProfiles/user_5/userImg.png",
+      "backgroundImage": "/userProfiles/user_5/userBackground.png",
+      "primarySrc": "/userProfiles/user_5/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Livia Rosser",
       "email": "livia05.f@gmail.com",
@@ -237,7 +242,8 @@
     },
     {
       "id": 6,
-      "primarySrc": "userProfiles/user_6/userImg.png",
+      "backgroundImage": "/userProfiles/user_6/userBackground.png",
+      "primarySrc": "/userProfiles/user_6/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Kianna Donin",
       "email": "kianna06.d@gmail.com",
@@ -284,7 +290,8 @@
     },
     {
       "id": 7,
-      "primarySrc": "userProfiles/user_7/userImg.png",
+      "backgroundImage": "/userProfiles/user_7/userBackground.png",
+      "primarySrc": "/userProfiles/user_7/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Phillip Lipshutz",
       "email": "phillip07.l@gmail.com",
@@ -331,7 +338,8 @@
     },
     {
       "id": 8,
-      "primarySrc": "userProfiles/user_8/userImg.png",
+      "backgroundImage": "/userProfiles/user_8/userBackground.png",
+      "primarySrc": "/userProfiles/user_8/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Maria Rosser",
       "email": "maria08.r@gmail.com",
@@ -396,7 +404,8 @@
     },
     {
       "id": 9,
-      "primarySrc": "userProfiles/user_9/userImg.png",
+      "backgroundImage": "/userProfiles/user_9/userBackground.png",
+      "primarySrc": "/userProfiles/user_9/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Kianna Stanton",
       "email": "kianna09.s@gmail.com",
@@ -443,7 +452,8 @@
     },
     {
       "id": 10,
-      "primarySrc": "userProfiles/user_10/userImg.png",
+      "backgroundImage": "/userProfiles/user_10/userBackground.png",
+      "primarySrc": "/userProfiles/user_10/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Randy Carder",
       "email": "randy10.c@gmail.com",
@@ -508,7 +518,8 @@
     },
     {
       "id": 11,
-      "primarySrc": "userProfiles/user_11/userImg.png",
+      "backgroundImage": "/userProfiles/user_11/userBackground.png",
+      "primarySrc": "/userProfiles/user_11/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Lydia Culhane",
       "email": "lydia11.c@gmail.com",
@@ -555,7 +566,8 @@
     },
     {
       "id": 12,
-      "primarySrc": "userProfiles/user_12/userImg.png",
+      "backgroundImage": "/userProfiles/user_12/userBackground.png",
+      "primarySrc": "/userProfiles/user_12/userImg.png",
       "primaryAlt": "userImg_broken",
       "fullName": "Jocelyn Westervelt",
       "email": "jocelyn12.w@gmail.com",

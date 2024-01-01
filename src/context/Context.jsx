@@ -1,10 +1,11 @@
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useContext, useState } from 'react';
 import Home from '../pages/Home/Home';
 import CreateAccount from '../pages/CreateAccount/CreateAccount';
 import ConnectWallet from '../pages/ConnectWallet/ConnectWallet';
 import axios from 'axios';
 import SignUp from '../pages/SignUp/SignUp';
 import { useNavigate } from 'react-router-dom';
+import UserPage from '../pages/UserPage/UserPage';
 
 const Context = createContext();
 
@@ -13,6 +14,12 @@ export const myContext = () => {
 };
 
 export const ContextProvider = ({ children }) => {
+  const getTheFirstWord = (str) => {
+    return str?.split(' ')[0];
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const navigate = useNavigate();
 
   //   ---------------------------------------------------------------------------
@@ -60,6 +67,10 @@ export const ContextProvider = ({ children }) => {
     {
       path: '/create-account',
       element: <CreateAccount />,
+    },
+    {
+      path: '/user-page/:id',
+      element: <UserPage />,
     },
   ];
 
@@ -529,23 +540,43 @@ Message: ${data.message}`;
 
   //   ---------------------------------------------------------------------------
 
+  const [isLoadingUserDataById, setIsLoadingUserDataById] = useState(false);
+  const [userDataById, setUserDataById] = useState([]);
+
+  const getUserDataById = async (id) => {
+    setIsLoadingUserDataById(true);
+
+    try {
+      const response = await axios.get(`${usersURL}/${id}`);
+
+      setUserDataById(response.data);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getUserDataById", произошла ошибка');
+    } finally {
+      setIsLoadingUserDataById(false);
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const [adminEnter, setAdminEnter] = useState(sessionStorage.getItem('admin'));
 
   const [userEnter, setUserenter] = useState(
-    sessionStorage.getItem('fullName')
+    JSON.parse(sessionStorage.getItem('userData'))
   );
 
   const checkUsersEmailPassword = (data) => {
-    let user;
+    let userData = usersData.find((el) => el.email === data.email);
 
-    user = usersData.find((el) => el.email === data.email);
+    if (!!userData && data.password === userData.password) {
+      userData = { fullName: userData.fullName, id: userData.id };
 
-    if (!!user && data.password === user.password) {
-      sessionStorage.setItem('fullName', user.fullName);
-      sessionStorage.setItem('id', user.id);
+      sessionStorage.setItem('userData', JSON.stringify(userData));
+      setUserenter(JSON.parse(sessionStorage.getItem('userData')));
       alert('Данные введены верно');
-      // navigate('')
-    } else if (!!user && data.password !== user.password) {
+      navigate('/');
+    } else if (!!userData && data.password !== userData.password) {
       alert('Пароль введён не верно');
     } else {
       alert('Данный email не зарегистрирован');
@@ -555,6 +586,10 @@ Message: ${data.message}`;
   return (
     <Context.Provider
       value={{
+        isLoadingUserDataById,
+        userDataById,
+        getUserDataById,
+        getTheFirstWord,
         navigate,
         adminEnter,
         userEnter,

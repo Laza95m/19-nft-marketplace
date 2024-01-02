@@ -19,9 +19,8 @@ const CreateAccount = () => {
 
   return (
     <>
-      {!!isLoadingCreateAccount && !createAccountData ? (
-        <Loader />
-      ) : (
+      {isLoadingCreateAccount && <Loader />}
+      {!!createAccountData && (
         <section className={s.section}>
           <div className={s.block_one}>
             <div

@@ -4,13 +4,13 @@ import AuctionTimer from './AuctionTimer/AuctionTimer';
 import s from './InfoNft.module.css';
 
 const InfoNft = () => {
-  const { infoNftUsers, genereteRandomNum } = myContext();
-  const usersLength = infoNftUsers.length - 1;
-  const nftUsers = infoNftUsers[genereteRandomNum(usersLength)];
+  const { infoNftUsers, genereteRandomNum, infoNftData } = myContext();
+  const usersLength = infoNftUsers?.length - 1;
+  const nftUsers = infoNftUsers?.[genereteRandomNum(usersLength)];
 
   return (
     <>
-      {!!nftUsers && (
+      {!!nftUsers && !!infoNftData && (
         <section
           style={{
             backgroundImage: `url(${nftUsers.nfts[0].nftSrc})`,

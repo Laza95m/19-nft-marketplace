@@ -4,14 +4,18 @@ import ImageSection from './ImageSection/ImageSection';
 import s from './SubscribeWidget.module.css';
 
 const SubscribeWidget = () => {
+  const { subscribeWidgetData } = myContext();
+
   return (
     <>
-      <section className={s.section}>
-        <div className={s.block}>
-          <ImageSection />
-          <ContactForm />
-        </div>
-      </section>
+      {!!subscribeWidgetData && (
+        <section className={s.section}>
+          <div className={s.block}>
+            <ImageSection />
+            <ContactForm />
+          </div>
+        </section>
+      )}
     </>
   );
 };

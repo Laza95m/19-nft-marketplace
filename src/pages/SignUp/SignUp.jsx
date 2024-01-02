@@ -15,9 +15,8 @@ const SignUp = () => {
 
   return (
     <>
-      {!!isLoadingSignUp && !!signUpData ? (
-        <Loader />
-      ) : (
+      {isLoadingSignUp && <Loader />}
+      {!!signUpData && (
         <section className={s.section}>
           <div className={s.block_one}>
             <div

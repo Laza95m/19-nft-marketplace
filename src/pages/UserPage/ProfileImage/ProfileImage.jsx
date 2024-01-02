@@ -1,8 +1,6 @@
 import s from './ProfileImage.module.css';
 
 const ProfileImage = ({ userData }) => {
-  console.log(userData);
-
   return (
     <>
       {!!userData && (

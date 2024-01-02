@@ -175,14 +175,6 @@ Message: ${data.message}`;
 
   //   ---------------------------------------------------------------------------
 
-  const [size, setSize] = useState(0);
-
-  const resizeHandler = () => {
-    setSize(window.innerWidth);
-  };
-
-  //   ---------------------------------------------------------------------------
-
   const usersURL = 'http://localhost:3002/users';
 
   //   ---------------------------------------------------------------------------
@@ -209,7 +201,7 @@ Message: ${data.message}`;
   //   ---------------------------------------------------------------------------
 
   const [isLoadingHeroSection, setIsLoadingHeroSection] = useState(false);
-  const [heroSectionData, setHeroSectionData] = useState([]);
+  const [heroSectionData, setHeroSectionData] = useState(null);
 
   const heroSectionURL = 'http://localhost:3001/heroSection';
 
@@ -233,7 +225,7 @@ Message: ${data.message}`;
 
   const [isLoadingTrendingCollection, setIsLoadingTrendingCollection] =
     useState(false);
-  const [trendingCollectionData, setTrendingCollectionData] = useState([]);
+  const [trendingCollectionData, setTrendingCollectionData] = useState(null);
 
   const trendingCollectionURL = 'http://localhost:3001/trendingCollection';
 
@@ -257,8 +249,8 @@ Message: ${data.message}`;
 
   const [isLoadingTopRatedArtists, setIsLoadingTopRatedArtists] =
     useState(false);
-  const [TopRatedArtistsData, setTopRatedArtistsData] = useState([]);
-  const [TopRatedArtistsUsers, setTopRatedArtistsUsers] = useState([]);
+  const [TopRatedArtistsData, setTopRatedArtistsData] = useState(null);
+  const [TopRatedArtistsUsers, setTopRatedArtistsUsers] = useState(null);
 
   const headlineSectionURL = 'http://localhost:3001/topRatedArtists';
 
@@ -284,7 +276,7 @@ Message: ${data.message}`;
 
   const [isLoadingBrowseCategories, setIsLoadingBrowseCategories] =
     useState(false);
-  const [browseCategoriesData, setBrowseCategoriesData] = useState([]);
+  const [browseCategoriesData, setBrowseCategoriesData] = useState(null);
 
   const browseCategoriesURL = 'http://localhost:3001/browseCategories';
 
@@ -307,8 +299,8 @@ Message: ${data.message}`;
   //   ---------------------------------------------------------------------------
 
   const [isLoadingDiscoverMore, setIsLoadingDiscoverMore] = useState(false);
-  const [discoverMoreData, setDiscoverMoreData] = useState([]);
-  const [discoverMoreUsers, setDiscoverMoreUsers] = useState([]);
+  const [discoverMoreData, setDiscoverMoreData] = useState(null);
+  const [discoverMoreUsers, setDiscoverMoreUsers] = useState(null);
 
   const discoverMoreURL = 'http://localhost:3001/discoverMore';
 
@@ -333,8 +325,8 @@ Message: ${data.message}`;
   //   ---------------------------------------------------------------------------
 
   const [isLoadingInfoNft, setIsLoadingInfoNft] = useState(false);
-  const [infoNftData, setInfoNftData] = useState([]);
-  const [infoNftUsers, setInfoNftUsers] = useState([]);
+  const [infoNftData, setInfoNftData] = useState(null);
+  const [infoNftUsers, setInfoNftUsers] = useState(null);
 
   const infoNftURL = 'http://localhost:3001/infoNft';
 
@@ -359,7 +351,7 @@ Message: ${data.message}`;
   //   ---------------------------------------------------------------------------
 
   const [isLoadingHowItWorks, setIsLoadingHowItWorks] = useState(false);
-  const [howItWorksData, setHowItWorksData] = useState([]);
+  const [howItWorksData, setHowItWorksData] = useState(null);
 
   const howItWorksURL = 'http://localhost:3001/howItWorks';
 
@@ -383,7 +375,7 @@ Message: ${data.message}`;
 
   const [isLoadingSubscribeWidget, setIsLoadingSubscribeWidget] =
     useState(false);
-  const [subscribeWidgetData, setSubscribeWidgetData] = useState([]);
+  const [subscribeWidgetData, setSubscribeWidgetData] = useState(null);
 
   const subscribeWidgetURL = 'http://localhost:3001/subscribeWidget';
 
@@ -406,7 +398,7 @@ Message: ${data.message}`;
   //   ---------------------------------------------------------------------------
 
   const [isLoadingCreateAccount, setIsLoadingCreateAccount] = useState(false);
-  const [createAccountData, setCreateAccountData] = useState([]);
+  const [createAccountData, setCreateAccountData] = useState(null);
 
   const createAccountURL = 'http://localhost:3003/createAccount';
 
@@ -429,7 +421,7 @@ Message: ${data.message}`;
   //   ---------------------------------------------------------------------------
 
   const [isLoadingConnectWallet, setIsLoadingConnectWallet] = useState(false);
-  const [connectWalletData, setConnectWalletData] = useState([]);
+  const [connectWalletData, setConnectWalletData] = useState(null);
 
   const connectWalletURL = 'http://localhost:3004/connectWallet';
 
@@ -452,7 +444,7 @@ Message: ${data.message}`;
   //   ---------------------------------------------------------------------------
 
   const [isLoadingSignUp, setIsLoadingSignUp] = useState(false);
-  const [signUpData, setSignUpData] = useState([]);
+  const [signUpData, setSignUpData] = useState(null);
 
   const signUpURL = 'http://localhost:3005/signUp';
 
@@ -474,7 +466,7 @@ Message: ${data.message}`;
 
   //   ---------------------------------------------------------------------------
 
-  const [usersData, setUsersData] = useState([]);
+  const [usersData, setUsersData] = useState(null);
 
   const getUsersData = async () => {
     try {
@@ -523,7 +515,7 @@ Message: ${data.message}`;
           instagramLink: 'https://www.instagram.com/',
         },
       ],
-      nfts: [],
+      nfts: null,
     };
 
     try {
@@ -541,7 +533,7 @@ Message: ${data.message}`;
   //   ---------------------------------------------------------------------------
 
   const [isLoadingUserDataById, setIsLoadingUserDataById] = useState(false);
-  const [userDataById, setUserDataById] = useState([]);
+  const [userDataById, setUserDataById] = useState(null);
 
   const getUserDataById = async (id) => {
     setIsLoadingUserDataById(true);
@@ -612,8 +604,6 @@ Message: ${data.message}`;
         isLoadingTrendingCollection,
         trendingCollectionData,
         getTrendingCollectionData,
-        size,
-        resizeHandler,
         genereteRandomNum,
         isLoadingTopRatedArtists,
         TopRatedArtistsData,

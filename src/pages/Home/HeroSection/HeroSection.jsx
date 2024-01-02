@@ -1,14 +1,19 @@
+import { myContext } from '../../../context/Context';
 import HeroInfo from './HeroInfo/HeroInfo';
 import s from './HeroSection.module.css';
 import Highlighted from './Highlighted/Highlighted';
 
 const HeroSection = () => {
+  const { heroSectionData } = myContext();
+
   return (
     <>
-      <section className={s.section}>
-        <HeroInfo />
-        <Highlighted />
-      </section>
+      {!!heroSectionData && (
+        <section className={s.section}>
+          <HeroInfo />
+          <Highlighted />
+        </section>
+      )}
     </>
   );
 };

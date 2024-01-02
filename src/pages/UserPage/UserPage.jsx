@@ -4,6 +4,7 @@ import { myContext } from '../../context/Context';
 import { useEffect } from 'react';
 import Loader from '../../components/Loader/Loader';
 import ProfileImage from './ProfileImage/ProfileImage';
+import UserInfo from './UserInfo/UserInfo';
 
 const UserPage = () => {
   const { isLoadingUserDataById, userDataById, getUserDataById } = myContext();
@@ -16,11 +17,9 @@ const UserPage = () => {
 
   return (
     <>
-      {isLoadingUserDataById && !userDataById ? (
-        <Loader />
-      ) : (
-        <ProfileImage userData={userDataById} />
-      )}
+      {isLoadingUserDataById && <Loader />}
+      {!!userDataById && <ProfileImage userData={userDataById} />}
+      {!!userDataById && <UserInfo userData={userDataById} />}
     </>
   );
 };

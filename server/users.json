@@ -17,23 +17,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -65,23 +69,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -113,23 +121,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -161,23 +173,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -209,23 +225,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -257,23 +277,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -305,23 +329,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -353,23 +381,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -419,23 +451,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -467,23 +503,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -533,23 +573,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [
@@ -581,23 +625,27 @@
       "links": [
         {
           "id": 1,
-          "globalLink": ""
+          "link": "https://discord.com/",
+          "imgSrc": "/public/footer/discord.svg",
+          "imgAlt": "discord_broken"
         },
         {
           "id": 2,
-          "discordLink": "https://discord.com/"
+          "link": "https://www.youtube.com/",
+          "imgSrc": "/public/footer/youtube.svg",
+          "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
-          "youtubeLink": "https://www.youtube.com/"
+          "link": "https://twitter.com/",
+          "imgSrc": "/public/footer/twitter.svg",
+          "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
-          "twitterLink": "https://twitter.com/"
-        },
-        {
-          "id": 5,
-          "instagramLink": "https://www.instagram.com/"
+          "link": "https://www.instagram.com/",
+          "imgSrc": "/public/footer/instagram.svg",
+          "imgAlt": "instagram_broken"
         }
       ],
       "nfts": [

@@ -16,7 +16,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.6.2",
+    "axios": "^1.6.3",
     "concurrently": "^8.2.2",
     "json-server": "^0.17.4",
     "react": "^18.2.0",
@@ -25,7 +25,7 @@
     "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
-    "@types/react": "^18.2.45",
+    "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.56.0",

@@ -29,7 +29,6 @@ const Home = () => {
     getHowItWorksData,
     isLoadingSubscribeWidget,
     getSubscribeWidgetData,
-    resizeHandler,
   } = myContext();
 
   useEffect(() => {
@@ -42,16 +41,6 @@ const Home = () => {
     getHowItWorksData();
     getSubscribeWidgetData();
   }, []);
-
-  // useEffect(() => {
-  //   window.addEventListener('resize', resizeHandler);
-  //   resizeHandler();
-
-  //   return () => {
-  //     window.removeEventListener('resize', resizeHandler);
-  //   };
-  // }, []);
-  console.log(123);
 
   return (
     <>

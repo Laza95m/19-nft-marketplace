@@ -14,9 +14,8 @@ const ConnectWallet = () => {
 
   return (
     <>
-      {isLoadingConnectWallet && !connectWalletData ? (
-        <Loader />
-      ) : (
+      {isLoadingConnectWallet && <Loader />}
+      {!!connectWalletData && (
         <section className={s.section}>
           <div className={s.block_one}>
             <div

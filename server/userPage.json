@@ -1,0 +1,10 @@
+{
+  "userPage": [
+    {
+      "id": 1,
+      "btnSrc": "/userPage/plus.svg",
+      "btnAlt": "plis_broken",
+      "btnText": "Create"
+    }
+  ]
+}

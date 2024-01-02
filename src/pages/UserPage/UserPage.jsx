@@ -7,19 +7,26 @@ import ProfileImage from './ProfileImage/ProfileImage';
 import UserInfo from './UserInfo/UserInfo';
 
 const UserPage = () => {
-  const { isLoadingUserDataById, userDataById, getUserDataById } = myContext();
+  const {
+    isLoadingUserDataById,
+    userDataById,
+    getUserDataById,
+    userPage,
+    getUserPage,
+  } = myContext();
 
   const { id } = useParams();
 
   useEffect(() => {
     getUserDataById(id);
+    getUserPage();
   }, [id]);
 
   return (
     <>
       {isLoadingUserDataById && <Loader />}
       {!!userDataById && <ProfileImage userData={userDataById} />}
-      {!!userDataById && <UserInfo userData={userDataById} />}
+      {!!userDataById && !!userPage && <UserInfo userData={userDataById} />}
     </>
   );
 };

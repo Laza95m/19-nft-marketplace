@@ -482,6 +482,7 @@ Message: ${data.message}`;
   const addNewUser = async (data) => {
     const newUser = {
       id: usersData.length + 1,
+      backgroundImage: '',
       primarySrc: '',
       primaryAlt: 'broken',
       fullName: data.fullName,
@@ -496,26 +497,30 @@ Message: ${data.message}`;
       links: [
         {
           id: 1,
-          globalLink: '',
+          link: 'https://discord.com/',
+          imgSrc: '/public/footer/discord.svg',
+          imgAlt: 'discord_broken',
         },
         {
           id: 2,
-          discordLink: 'https://discord.com/',
+          link: 'https://www.youtube.com/',
+          imgSrc: '/public/footer/youtube.svg',
+          imgAlt: 'youtube_broken',
         },
         {
           id: 3,
-          youtubeLink: 'https://www.youtube.com/',
+          link: 'https://twitter.com/',
+          imgSrc: '/public/footer/twitter.svg',
+          imgAlt: 'twitter_broken',
         },
         {
           id: 4,
-          twitterLink: 'https://twitter.com/',
-        },
-        {
-          id: 5,
-          instagramLink: 'https://www.instagram.com/',
+          link: 'https://www.instagram.com/',
+          imgSrc: '/public/footer/instagram.svg',
+          imgAlt: 'instagram_broken',
         },
       ],
-      nfts: null,
+      nfts: [],
     };
 
     try {
@@ -552,6 +557,28 @@ Message: ${data.message}`;
 
   //   ---------------------------------------------------------------------------
 
+  // const [isLoadingUserPage, setIsLoadingUserPage] = useState(false);
+  const [userPage, setUserPage] = useState(null);
+
+  const userPageURL = 'http://localhost:3006/userPage';
+
+  const getUserPage = async () => {
+    // setIsLoadingUserPage(true);
+
+    try {
+      const response = await axios.get(userPageURL);
+
+      setUserPage(response.data);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getUserPage", произошла ошибка');
+    } finally {
+      // setIsLoadingUserPage(false);
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const [adminEnter, setAdminEnter] = useState(sessionStorage.getItem('admin'));
 
   const [userEnter, setUserenter] = useState(
@@ -578,6 +605,8 @@ Message: ${data.message}`;
   return (
     <Context.Provider
       value={{
+        userPage,
+        getUserPage,
         isLoadingUserDataById,
         userDataById,
         getUserDataById,

@@ -1,0 +1,91 @@
+.section {
+  background: var(--background);
+  padding: 80px 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 1050px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img {
+  border-radius: 20px;
+  border: 2px solid var(--background---Secondary);
+  width: 120px;
+  height: 120px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 22px;
+  line-height: 35px;
+  text-transform: capitalize;
+  max-width: 330px;
+  width: 100%;
+}
+
+.form > .label > .input:focus {
+  outline: auto;
+  outline-color: var(--call-to-Action);
+}
+
+.form > .label > .input {
+  color: var(--background);
+  border-radius: 10px;
+  padding: 16px 20px;
+  font-size: 16px;
+  line-height: 22px;
+  resize: none;
+}
+
+.submit {
+  background: var(--call-to-Action);
+  border-radius: 10px;
+  padding: 16px 20px;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+  max-width: 330px;
+  width: 100%;
+}
+
+.submit:hover {
+  transform: scale(0.95);
+}
+
+.error {
+  color: var(--error-message);
+}
+
+@media screen and (max-width: 1000px) {
+  .section {
+    padding: 80px 72px;
+  }
+  .label {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .section {
+    padding: 80px 30px;
+  }
+}

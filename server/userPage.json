@@ -2,9 +2,22 @@
   "userPage": [
     {
       "id": 1,
-      "btnSrc": "/userPage/plus.svg",
-      "btnAlt": "plis_broken",
-      "btnText": "Create"
+      "btns": [
+        {
+          "id": 1,
+          "src": "/userPage/user.svg",
+          "alt": "user_broken",
+          "link": "/change-user-data/",
+          "text": "Change"
+        },
+        {
+          "id": 2,
+          "src": "/userPage/plus.svg",
+          "alt": "plus_broken",
+          "link": "",
+          "text": "Create"
+        }
+      ]
     }
   ]
 }

@@ -5,15 +5,12 @@ import { useEffect } from 'react';
 import Loader from '../../components/Loader/Loader';
 import ProfileImage from './ProfileImage/ProfileImage';
 import UserInfo from './UserInfo/UserInfo';
+import UserTab from './UserTab/UserTab';
+import CardsSection from './CardsSection/CardsSection';
 
 const UserPage = () => {
-  const {
-    isLoadingUserDataById,
-    userDataById,
-    getUserDataById,
-    userPage,
-    getUserPage,
-  } = myContext();
+  const { isLoadingUserDataById, userDataById, getUserDataById, getUserPage } =
+    myContext();
 
   const { id } = useParams();
 
@@ -26,7 +23,9 @@ const UserPage = () => {
     <>
       {isLoadingUserDataById && <Loader />}
       {!!userDataById && <ProfileImage userData={userDataById} />}
-      {!!userDataById && !!userPage && <UserInfo userData={userDataById} />}
+      {!!userDataById && <UserInfo userData={userDataById} />}
+      {!!userDataById && <UserTab userData={userDataById} />}
+      {!!userDataById && <CardsSection userData={userDataById} />}
     </>
   );
 };

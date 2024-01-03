@@ -4,39 +4,37 @@
       "id": 1,
       "backgroundImage": "/userProfiles/user_1/userBackground.png",
       "primarySrc": "/userProfiles/user_1/userImg.png",
-      "primaryAlt": "userImg_broken",
+      "primaryAlt": "broken",
       "fullName": "Jaydon Ekstrom",
       "email": "jaydon01.e@gmail.com",
+      "phone": "+998997777777",
       "nickName": "Keepitreal",
       "password": "777777",
-      "totalSale": 34.53,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
-      "change": "+1.41%",
+      "change": "0%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -59,36 +57,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Ruben Carder",
       "email": "ruben02.c@gmail.com",
+      "phone": "+998997777777",
       "nickName": "DigiLab",
       "password": "777777",
-      "totalSale": 33.43,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -111,36 +107,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Alfredo Septimus",
       "email": "alfredo03.s@gmail.com",
+      "phone": "+998997777777",
       "nickName": "GravityOne",
       "password": "777777",
-      "totalSale": 32.33,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -163,36 +157,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Davis Franci",
       "email": "davis04.f@gmail.com",
+      "phone": "+998997777777",
       "nickName": "Juanie",
       "password": "777777",
-      "totalSale": 31.23,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -215,36 +207,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Livia Rosser",
       "email": "livia05.f@gmail.com",
+      "phone": "+998997777777",
       "nickName": "BlueWhale",
       "password": "777777",
-      "totalSale": 30.13,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -267,36 +257,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Kianna Donin",
       "email": "kianna06.d@gmail.com",
+      "phone": "+998997777777",
       "nickName": "mr fox",
       "password": "777777",
-      "totalSale": 29.93,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -319,36 +307,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Phillip Lipshutz",
       "email": "phillip07.l@gmail.com",
+      "phone": "+998997777777",
       "nickName": "Shroomie",
       "password": "777777",
-      "totalSale": 28.83,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -371,36 +357,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Maria Rosser",
       "email": "maria08.r@gmail.com",
+      "phone": "+998997777777",
       "nickName": "robotica",
       "password": "777777",
-      "totalSale": 27.73,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -441,36 +425,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Kianna Stanton",
       "email": "kianna09.s@gmail.com",
+      "phone": "+998997777777",
       "nickName": "RustyRobot",
       "password": "777777",
-      "totalSale": 26.67,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -493,36 +475,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Randy Carder",
       "email": "randy10.c@gmail.com",
+      "phone": "+998997777777",
       "nickName": "animakid",
       "password": "777777",
-      "totalSale": 81.85,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -563,36 +543,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Lydia Culhane",
       "email": "lydia11.c@gmail.com",
+      "phone": "+998997777777",
       "nickName": "Dotgu",
       "password": "777777",
-      "totalSale": 83.29,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],
@@ -615,36 +593,34 @@
       "primaryAlt": "userImg_broken",
       "fullName": "Jocelyn Westervelt",
       "email": "jocelyn12.w@gmail.com",
+      "phone": "+998997777777",
       "nickName": "Ghiblier",
       "password": "777777",
-      "totalSale": 51.73,
-      "totalsSold": 50,
-      "followers": 3000,
       "bio": "The internet's friendliest designer kid.",
       "change": "+1.41%",
       "links": [
         {
           "id": 1,
           "link": "https://discord.com/",
-          "imgSrc": "/public/footer/discord.svg",
+          "imgSrc": "/footer/discord.svg",
           "imgAlt": "discord_broken"
         },
         {
           "id": 2,
           "link": "https://www.youtube.com/",
-          "imgSrc": "/public/footer/youtube.svg",
+          "imgSrc": "/footer/youtube.svg",
           "imgAlt": "youtube_broken"
         },
         {
           "id": 3,
           "link": "https://twitter.com/",
-          "imgSrc": "/public/footer/twitter.svg",
+          "imgSrc": "/footer/twitter.svg",
           "imgAlt": "twitter_broken"
         },
         {
           "id": 4,
           "link": "https://www.instagram.com/",
-          "imgSrc": "/public/footer/instagram.svg",
+          "imgSrc": "/footer/instagram.svg",
           "imgAlt": "instagram_broken"
         }
       ],

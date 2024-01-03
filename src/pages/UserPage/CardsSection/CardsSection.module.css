@@ -1,0 +1,101 @@
+.section {
+  background: var(--background---Secondary);
+  padding: 80px 115px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1050px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  max-width: 330px;
+}
+
+.nftImg {
+  width: 330px;
+  height: 296px;
+  border-radius: 20px 20px 0 0;
+}
+
+.box {
+  display: flex;
+  padding: 20px 30px 25px 30px;
+  border-radius: 0 0 20px 20px;
+  flex-direction: column;
+  background: var(--background);
+  gap: 25px;
+}
+
+.content_one {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.content_one > .title {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.content_one > .holder {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.userImg {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.name {
+  font-family: Space Mono;
+}
+
+.content_two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.holder_one,
+.holder_two {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.holder_two {
+  text-align: right;
+}
+
+.content_two .title {
+  color: var(--caption-label-text);
+  font-size: 12px;
+  line-height: 13px;
+  font-family: Space Mono;
+}
+
+.content_two .price {
+  line-height: 22px;
+  font-family: Space Mono;
+}
+
+@media screen and (max-width: 834px) {
+  .nftImg {
+    width: 315px;
+    height: 281px;
+  }
+
+  .box {
+    padding: 20px 20px 25px 20px;
+  }
+}

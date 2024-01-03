@@ -6,6 +6,7 @@ import axios from 'axios';
 import SignUp from '../pages/SignUp/SignUp';
 import { useNavigate } from 'react-router-dom';
 import UserPage from '../pages/UserPage/UserPage';
+import ChangeUserData from '../pages/ChangeUserData/ChangeUserData';
 
 const Context = createContext();
 
@@ -71,6 +72,10 @@ export const ContextProvider = ({ children }) => {
     {
       path: '/user-page/:id',
       element: <UserPage />,
+    },
+    {
+      path: '/change-user-data/:id',
+      element: <ChangeUserData />,
     },
   ];
 
@@ -140,6 +145,32 @@ export const ContextProvider = ({ children }) => {
 
   //   ---------------------------------------------------------------------------
 
+  const validUserImg = {
+    required: 'The UserImg is required',
+    pattern: {
+      value: /^\/([\/|.|\w|\s|-])*\.png$/g,
+      message: 'Enter valid UserImg like: /userImg.png',
+    },
+  };
+
+  const validNickName = {
+    required: 'The nickName is required',
+    pattern: {
+      value: /^[A-Z]{1}[a-z]{1,20}$/gm,
+      message: 'Enter valid nickName like: Dominik',
+    },
+    maxLength: {
+      value: 20,
+      message: 'Maximum length is 20',
+    },
+  };
+
+  const validBio = {
+    required: 'The bio is required',
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const sendTelegramMessage = async (data) => {
     const message = `Name: ${data.name}
 Phone: ${data.phone}
@@ -196,6 +227,18 @@ Message: ${data.message}`;
       minutes: Math.floor((time / 1000 / 60) % 60),
       seconds: Math.floor((time / 1000) % 60),
     });
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const wordSearch = (array, word) => {
+    return array[array.indexOf(word)];
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const getObjectKeys = (obj) => {
+    return Object.keys(obj);
   };
 
   //   ---------------------------------------------------------------------------
@@ -482,11 +525,12 @@ Message: ${data.message}`;
   const addNewUser = async (data) => {
     const newUser = {
       id: usersData.length + 1,
-      backgroundImage: '',
+      backgroundImage: '/userProfiles/user_1/userBackground.png',
       primarySrc: '',
       primaryAlt: 'broken',
       fullName: data.fullName,
       email: data.email,
+      phone: data.phone,
       nickName: '',
       password: data.password,
       totalSale: 0,
@@ -557,6 +601,62 @@ Message: ${data.message}`;
 
   //   ---------------------------------------------------------------------------
 
+  const putUserById = async (id, data, nfts) => {
+    const userData = {
+      backgroundImage: '/userProfiles/user_1/userBackground.png',
+      primarySrc: data.userImg,
+      primaryAlt: 'broken',
+      fullName: data.fullname,
+      email: data.email,
+      phone: data.phone,
+      nickName: data.nickName,
+      password: data.password,
+      bio: data.bio,
+      change: '0%',
+      links: [
+        {
+          id: 1,
+          link: 'https://discord.com/',
+          imgSrc: '/footer/discord.svg',
+          imgAlt: 'discord_broken',
+        },
+        {
+          id: 2,
+          link: 'https://www.youtube.com/',
+          imgSrc: '/footer/youtube.svg',
+          imgAlt: 'youtube_broken',
+        },
+        {
+          id: 3,
+          link: 'https://twitter.com/',
+          imgSrc: '/footer/twitter.svg',
+          imgAlt: 'twitter_broken',
+        },
+        {
+          id: 4,
+          link: 'https://www.instagram.com/',
+          imgSrc: '/footer/instagram.svg',
+          imgAlt: 'instagram_broken',
+        },
+      ],
+      nfts: nfts,
+    };
+
+    try {
+      await axios.put(`${usersURL}/${id}`, {
+        id: id,
+        ...userData,
+      });
+      alert('Данные успешно обновлены');
+      navigate(`/user-page/${id}`);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "putUserById", произошла ошибка');
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
   // const [isLoadingUserPage, setIsLoadingUserPage] = useState(false);
   const [userPage, setUserPage] = useState(null);
 
@@ -605,6 +705,12 @@ Message: ${data.message}`;
   return (
     <Context.Provider
       value={{
+        validBio,
+        validUserImg,
+        validNickName,
+        putUserById,
+        getObjectKeys,
+        wordSearch,
         userPage,
         getUserPage,
         isLoadingUserDataById,

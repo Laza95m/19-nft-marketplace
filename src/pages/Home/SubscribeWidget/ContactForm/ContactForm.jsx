@@ -48,6 +48,7 @@ const ContactForm = () => {
               {!!errors.name && (
                 <p className={s.error}>{errors.name.message}</p>
               )}
+
               <input
                 {...register('phone', validPhone)}
                 type="tel"
@@ -57,6 +58,7 @@ const ContactForm = () => {
               {!!errors.phone && (
                 <p className={s.error}>{errors.phone.message}</p>
               )}
+
               <textarea
                 {...register('message', validMessage)}
                 className={s.textarea}
@@ -66,6 +68,7 @@ const ContactForm = () => {
               {!!errors.message && (
                 <p className={s.error}>{errors.message.message}</p>
               )}
+
               <button className={s.btnSendMes} type="submit">
                 <img
                   className={s.img}

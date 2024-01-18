@@ -29,6 +29,7 @@ const Home = () => {
     getHowItWorksData,
     isLoadingSubscribeWidget,
     getSubscribeWidgetData,
+    getUsersData,
   } = myContext();
 
   useEffect(() => {
@@ -40,6 +41,7 @@ const Home = () => {
     getInfoNftData();
     getHowItWorksData();
     getSubscribeWidgetData();
+    getUsersData();
   }, []);
 
   return (

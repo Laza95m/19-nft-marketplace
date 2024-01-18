@@ -5,6 +5,7 @@ import s from './TopRatedArtists.module.css';
 
 const TopRatedArtists = () => {
   const { TopRatedArtistsData } = myContext();
+
   return (
     <>
       {!!TopRatedArtistsData && (

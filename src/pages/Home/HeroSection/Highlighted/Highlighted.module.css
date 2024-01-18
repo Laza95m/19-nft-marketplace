@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   max-width: 510px;
+  max-height: 510px;
   width: 100%;
+  text-decoration: none;
 }
 
 .block_one {
@@ -42,6 +44,13 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+  transition: 0.3s;
+  width: 117px;
+}
+
+.box:hover {
+  transform: scale(0.95);
 }
 
 .userImg {

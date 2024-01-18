@@ -1,0 +1,220 @@
+{
+  "nftsData": [
+    {
+      "id": 1,
+      "nftSrc": "/userProfiles/user_1/nfts/nft_1.png",
+      "nftName": "Distant Galaxy",
+      "price": 1.63,
+      "highestBid": 2.05,
+      "user": {
+        "id": 1,
+        "primarySrc": "/userProfiles/user_1/userImg.png",
+        "nickName": "Keepitreal"
+      }
+    },
+    {
+      "id": 2,
+      "nftSrc": "/userProfiles/user_2/nfts/nft_1.png",
+      "nftName": "Life On Edena",
+      "price": 1.15,
+      "highestBid": 4.51,
+      "user": {
+        "id": 2,
+        "primarySrc": "/userProfiles/user_2/userImg.png",
+        "nickName": "DigiLab"
+      }
+    },
+    {
+      "id": 3,
+      "nftSrc": "/userProfiles/user_3/nfts/nft_1.png",
+      "nftName": "AstroFiction",
+      "price": 0.84,
+      "highestBid": 1.55,
+      "user": {
+        "id": 3,
+        "primarySrc": "/userProfiles/user_3/userImg.png",
+        "nickName": "GravityOne"
+      }
+    },
+    {
+      "id": 4,
+      "nftSrc": "/userProfiles/user_4/nfts/nft_1.png",
+      "nftName": "CryptoCity",
+      "price": 4.01,
+      "highestBid": 4.05,
+      "user": {
+        "id": 4,
+        "primarySrc": "/userProfiles/user_4/userImg.png",
+        "nickName": "Juanie"
+      }
+    },
+    {
+      "id": 5,
+      "nftSrc": "/userProfiles/user_5/nfts/nft_1.png",
+      "nftName": "Space Travel",
+      "price": 0.99,
+      "highestBid": 1.05,
+      "user": {
+        "id": 5,
+        "primarySrc": "/userProfiles/user_5/userImg.png",
+        "nickName": "BlueWhale"
+      }
+    },
+    {
+      "id": 6,
+      "nftSrc": "/userProfiles/user_6/nfts/nft_1.png",
+      "nftName": "Space Walking",
+      "price": 1.9,
+      "highestBid": 2.31,
+      "user": {
+        "id": 6,
+        "primarySrc": "/userProfiles/user_6/userImg.png",
+        "nickName": "mr fox"
+      }
+    },
+    {
+      "id": 7,
+      "nftSrc": "/userProfiles/user_7/nfts/nft_1.png",
+      "nftName": "Cherry Blossom",
+      "price": 5.21,
+      "highestBid": 5.29,
+      "user": {
+        "id": 7,
+        "primarySrc": "/userProfiles/user_7/userImg.png",
+        "nickName": "Shroomie"
+      }
+    },
+    {
+      "id": 8,
+      "nftSrc": "/userProfiles/user_8/nfts/nft_1.png",
+      "nftName": "Disco Machines",
+      "price": 3.44,
+      "highestBid": 4.09,
+      "user": {
+        "id": 8,
+        "primarySrc": "/userProfiles/user_8/userImg.png",
+        "nickName": "robotica"
+      }
+    },
+    {
+      "id": 9,
+      "nftSrc": "/userProfiles/user_8/nfts/nft_2.png",
+      "nftName": "Disco Machines",
+      "price": 0.22,
+      "highestBid": 1.52,
+      "user": {
+        "id": 8,
+        "primarySrc": "/userProfiles/user_8/userImg.png",
+        "nickName": "robotica"
+      }
+    },
+    {
+      "id": 10,
+      "nftSrc": "/userProfiles/user_8/nfts/nft_3.png",
+      "nftName": "Disco Machines",
+      "price": 2.74,
+      "highestBid": 2.95,
+      "user": {
+        "id": 8,
+        "primarySrc": "/userProfiles/user_8/userImg.png",
+        "nickName": "robotica"
+      }
+    },
+    {
+      "id": 11,
+      "nftSrc": "/userProfiles/user_9/nfts/nft_1.png",
+      "nftName": "Sunset Dimension",
+      "price": 0.1,
+      "highestBid": 1.77,
+      "user": {
+        "id": 9,
+        "primarySrc": "/userProfiles/user_9/userImg.png",
+        "nickName": "RustyRobot"
+      }
+    },
+    {
+      "id": 12,
+      "nftSrc": "/userProfiles/user_10/nfts/nft_1.png",
+      "nftName": "Magic Mushrooms",
+      "price": 7,
+      "highestBid": 7.75,
+      "user": {
+        "id": 10,
+        "primarySrc": "/userProfiles/user_10/userImg.png",
+        "nickName": "animakid"
+      }
+    },
+    {
+      "id": 13,
+      "nftSrc": "/userProfiles/user_10/nfts/nft_2.png",
+      "nftName": "Magic Mushrooms",
+      "price": 3,
+      "highestBid": 3.27,
+      "user": {
+        "id": 10,
+        "primarySrc": "/userProfiles/user_10/userImg.png",
+        "nickName": "animakid"
+      }
+    },
+    {
+      "id": 14,
+      "nftSrc": "/userProfiles/user_10/nfts/nft_3.png",
+      "nftName": "Magic Mushrooms",
+      "price": 1,
+      "highestBid": 2.52,
+      "user": {
+        "id": 10,
+        "primarySrc": "/userProfiles/user_10/userImg.png",
+        "nickName": "animakid"
+      }
+    },
+    {
+      "id": 15,
+      "nftSrc": "/userProfiles/user_11/nfts/nft_1.png",
+      "nftName": "Desert Walk",
+      "price": 4.45,
+      "highestBid": 4.67,
+      "user": {
+        "id": 11,
+        "primarySrc": "/userProfiles/user_11/userImg.png",
+        "nickName": "Dotgu"
+      }
+    },
+    {
+      "id": 16,
+      "nftSrc": "/userProfiles/user_12/nfts/nft_1.png",
+      "nftName": "DSGN Animals",
+      "price": 2.95,
+      "highestBid": 3.64,
+      "user": {
+        "id": 12,
+        "primarySrc": "/userProfiles/user_12/userImg.png",
+        "nickName": "Ghiblier"
+      }
+    },
+    {
+      "id": 17,
+      "nftSrc": "/userProfiles/user_12/nfts/nft_2.png",
+      "nftName": "DSGN Animals",
+      "price": 0.86,
+      "highestBid": 1.01,
+      "user": {
+        "id": 12,
+        "primarySrc": "/userProfiles/user_12/userImg.png",
+        "nickName": "Ghiblier"
+      }
+    },
+    {
+      "id": 18,
+      "nftSrc": "/userProfiles/user_12/nfts/nft_3.png",
+      "nftName": "DSGN Animals",
+      "price": 1.53,
+      "highestBid": 1.71,
+      "user": {
+        "id": 12,
+        "primarySrc": "/userProfiles/user_12/userImg.png",
+        "nickName": "Ghiblier"
+      }
+    }
+  ]
+}

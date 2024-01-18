@@ -66,11 +66,19 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+  width: 100px;
+  transition: 0.3s;
+}
+
+.content:hover {
+  transform: scale(0.95);
 }
 
 .userImg {
   max-width: 24px;
   width: 100%;
+  border-radius: 50%;
 }
 
 .name {

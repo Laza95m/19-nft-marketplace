@@ -7,6 +7,8 @@ import SignUp from '../pages/SignUp/SignUp';
 import { useNavigate } from 'react-router-dom';
 import UserPage from '../pages/UserPage/UserPage';
 import ChangeUserData from '../pages/ChangeUserData/ChangeUserData';
+import Nft from '../pages/Nft/Nft';
+import Marketplace from '../pages/Marketplace/Marketplace';
 
 const Context = createContext();
 
@@ -51,7 +53,7 @@ export const ContextProvider = ({ children }) => {
     },
     {
       path: '/marketplace',
-      element: '',
+      element: <Marketplace />,
     },
     {
       path: '/rankings',
@@ -76,6 +78,10 @@ export const ContextProvider = ({ children }) => {
     {
       path: '/change-user-data/:id',
       element: <ChangeUserData />,
+    },
+    {
+      path: '/nft/:id',
+      element: <Nft />,
     },
   ];
 
@@ -533,9 +539,6 @@ Message: ${data.message}`;
       phone: data.phone,
       nickName: '',
       password: data.password,
-      totalSale: 0,
-      totalsSold: 0,
-      followers: 0,
       bio: '',
       change: '0%',
       links: [
@@ -679,6 +682,36 @@ Message: ${data.message}`;
 
   //   ---------------------------------------------------------------------------
 
+  const [isLoadingNftsData, setIsLoadingNftsData] = useState(false);
+  const [nftsData, setNftsData] = useState(null);
+
+  const nftsDataURL = 'http://localhost:3007/nftsData';
+
+  const getNftsData = async () => {
+    setIsLoadingNftsData(true);
+
+    try {
+      const response = await axios.get(nftsDataURL);
+
+      setNftsData(response.data);
+    } catch (error) {
+      console.log(error);
+      alert('В функции - "getNftsData", произошла ошибка');
+    } finally {
+      setIsLoadingNftsData(false);
+    }
+  };
+
+  //   ---------------------------------------------------------------------------
+
+  const [searchNft, setSearchNft] = useState('');
+
+  const onChangeSearchNft = (e) => {
+    setSearchNft(e.target.value);
+  };
+
+  //   ---------------------------------------------------------------------------
+
   const [adminEnter, setAdminEnter] = useState(sessionStorage.getItem('admin'));
 
   const [userEnter, setUserenter] = useState(
@@ -705,6 +738,11 @@ Message: ${data.message}`;
   return (
     <Context.Provider
       value={{
+        isLoadingNftsData,
+        searchNft,
+        onChangeSearchNft,
+        nftsData,
+        getNftsData,
         validBio,
         validUserImg,
         validNickName,

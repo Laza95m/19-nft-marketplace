@@ -44,6 +44,24 @@
           "nftSrc": "/userProfiles/user_1/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "Distant Galaxy",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 1.63,
           "highestBid": 2.05,
           "timerHours": 60
@@ -90,10 +108,28 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 2,
           "nftSrc": "/userProfiles/user_2/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "Life On Edena",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 1.15,
           "highestBid": 4.51,
           "timerHours": 50
@@ -140,10 +176,28 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 3,
           "nftSrc": "/userProfiles/user_3/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "AstroFiction",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 0.84,
           "highestBid": 1.55,
           "timerHours": 40
@@ -190,10 +244,28 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 4,
           "nftSrc": "/userProfiles/user_4/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "CryptoCity",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 4.01,
           "highestBid": 4.05,
           "timerHours": 30
@@ -240,10 +312,28 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 5,
           "nftSrc": "/userProfiles/user_5/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "Space Travel",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 0.99,
           "highestBid": 1.05,
           "timerHours": 20
@@ -290,10 +380,28 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 6,
           "nftSrc": "/userProfiles/user_6/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "Space Walking",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 1.9,
           "highestBid": 2.31,
           "timerHours": 10
@@ -340,10 +448,28 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 7,
           "nftSrc": "/userProfiles/user_7/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "Cherry Blossom",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 5.21,
           "highestBid": 5.29,
           "timerHours": 70
@@ -390,28 +516,82 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 8,
           "nftSrc": "/userProfiles/user_8/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "Disco Machines",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 3.44,
           "highestBid": 4.09,
           "timerHours": 80
         },
         {
-          "id": 2,
+          "id": 9,
           "nftSrc": "/userProfiles/user_8/nfts/nft_2.png",
           "nftAlt": "nft_2_broken",
           "nftName": "Disco Machines",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 0.22,
           "highestBid": 1.52,
           "timerHours": 90
         },
         {
-          "id": 3,
+          "id": 10,
           "nftSrc": "/userProfiles/user_8/nfts/nft_3.png",
           "nftAlt": "nft_3_broken",
           "nftName": "Disco Machines",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 2.74,
           "highestBid": 2.95,
           "timerHours": 16
@@ -458,10 +638,28 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 11,
           "nftSrc": "/userProfiles/user_9/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "Sunset Dimension",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 0.1,
           "highestBid": 1.77,
           "timerHours": 15
@@ -508,28 +706,82 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 12,
           "nftSrc": "/userProfiles/user_10/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "Magic Mushrooms",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 7,
           "highestBid": 7.75,
           "timerHours": 14
         },
         {
-          "id": 2,
+          "id": 13,
           "nftSrc": "/userProfiles/user_10/nfts/nft_2.png",
           "nftAlt": "nft_2_broken",
           "nftName": "Magic Mushrooms",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 3,
           "highestBid": 3.27,
           "timerHours": 13
         },
         {
-          "id": 3,
+          "id": 14,
           "nftSrc": "/userProfiles/user_10/nfts/nft_3.png",
           "nftAlt": "nft_3_broken",
           "nftName": "Magic Mushrooms",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 1,
           "highestBid": 2.52,
           "timerHours": 12
@@ -576,10 +828,28 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 15,
           "nftSrc": "/userProfiles/user_11/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "Desert Walk",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 4.45,
           "highestBid": 4.67,
           "timerHours": 11
@@ -626,28 +896,82 @@
       ],
       "nfts": [
         {
-          "id": 1,
+          "id": 16,
           "nftSrc": "/userProfiles/user_12/nfts/nft_1.png",
           "nftAlt": "nft_1_broken",
           "nftName": "DSGN Animals",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 2.95,
           "highestBid": 3.64,
           "timerHours": 26
         },
         {
-          "id": 2,
+          "id": 17,
           "nftSrc": "/userProfiles/user_12/nfts/nft_2.png",
           "nftAlt": "nft_2_broken",
           "nftName": "DSGN Animals",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 0.86,
           "highestBid": 1.01,
           "timerHours": 27
         },
         {
-          "id": 3,
+          "id": 18,
           "nftSrc": "/userProfiles/user_12/nfts/nft_3.png",
           "nftAlt": "nft_3_broken",
           "nftName": "DSGN Animals",
+          "description": [
+            {
+              "id": 1,
+              "text": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,"
+            },
+            {
+              "id": 2,
+              "text": "There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians."
+            },
+            {
+              "id": 3,
+              "text": "They live in a metal space machines, high up in the sky and only have one foot on Earth."
+            },
+            {
+              "id": 4,
+              "text": "These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target."
+            }
+          ],
           "price": 1.53,
           "highestBid": 1.71,
           "timerHours": 28

@@ -25,15 +25,6 @@
           "subtitle": "Artists"
         }
       ]
-    },
-    {
-      "id": 2,
-      "imgSrc": "/heroSection/main.png",
-      "imgAlt": "main_broken",
-      "title": "Space Walking",
-      "userSrc": "/heroSection/user.png",
-      "userAlt": "user_broken",
-      "userName": "Animakid"
     }
   ],
   "trendingCollection": [
@@ -44,7 +35,7 @@
     },
     [
       {
-        "id": 1,
+        "id": 12,
         "primarySrc": "/trendingCollection/user_1/primary.png",
         "primaryAlt": "primary_broken",
         "secondSrc": "/trendingCollection/user_1/second.png",
@@ -53,12 +44,12 @@
         "thirdAlt": "primary_broken",
         "count": "1025+",
         "title": "DSGN Animals",
-        "userSrc": "/trendingCollection/user_1/user.png",
+        "userSrc": "/userProfiles/user_12/userImg.png",
         "userAlt": "user_broken",
-        "userName": "MrFox"
+        "userName": "Ghiblier"
       },
       {
-        "id": 2,
+        "id": 10,
         "primarySrc": "/trendingCollection/user_2/primary.png",
         "primaryAlt": "primary_broken",
         "secondSrc": "/trendingCollection/user_2/second.png",
@@ -67,12 +58,12 @@
         "thirdAlt": "primary_broken",
         "count": "1025+",
         "title": "Magic Mushrooms",
-        "userSrc": "/trendingCollection/user_2/user.png",
+        "userSrc": "/userProfiles/user_10/userImg.png",
         "userAlt": "user_broken",
-        "userName": "Shroomie"
+        "userName": "animakid"
       },
       {
-        "id": 3,
+        "id": 8,
         "primarySrc": "/trendingCollection/user_3/primary.png",
         "primaryAlt": "primary_broken",
         "secondSrc": "/trendingCollection/user_3/second.png",
@@ -81,9 +72,9 @@
         "thirdAlt": "primary_broken",
         "count": "1025+",
         "title": "Disco Machines",
-        "userSrc": "/trendingCollection/user_3/user.png",
+        "userSrc": "/userProfiles/user_8/userImg.png",
         "userAlt": "user_broken",
-        "userName": "BeKind2Robots"
+        "userName": "robotica"
       }
     ]
   ],
@@ -96,8 +87,7 @@
       "btnSrc": "/topRatedArtists/rocket_launch.svg",
       "btnAlt": "rocket_launch_broken",
       "btnText": "View Rankings"
-    },
-    { "id": 2, "text": "Total Sales: ", "currency": " ETH" }
+    }
   ],
   "browseCategories": [
     {

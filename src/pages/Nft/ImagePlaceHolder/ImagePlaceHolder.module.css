@@ -1,0 +1,18 @@
+.section {
+  height: 560px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+  .section {
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .section {
+    height: 320px;
+  }
+}

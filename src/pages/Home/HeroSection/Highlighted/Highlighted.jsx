@@ -1,31 +1,30 @@
+import { Link } from 'react-router-dom';
 import { myContext } from '../../../../context/Context';
 import s from './Highlighted.module.css';
 
 const Highlighted = () => {
-  const { heroSectionData } = myContext();
-  const highlightedData = heroSectionData[1];
+  const { usersData } = myContext();
+
+  const user = usersData?.[0];
+  const nft = user?.nfts[0];
 
   return (
     <>
-      {!!highlightedData && (
-        <div className={s.container}>
-          <div className={s.block_one}>
-            <img
-              className={s.img}
-              src={highlightedData.imgSrc}
-              alt={highlightedData.Alt}
-            />
-          </div>
+      {!!usersData && (
+        <div className={s.container} to={`/nft/${nft.id}`}>
+          <Link className={s.block_one} to={`/nft/${nft.id}`}>
+            <img className={s.img} src={nft.nftSrc} alt={nft.nftAlt} />
+          </Link>
           <div className={s.block_two}>
-            <h5 className={s.title}>{highlightedData.title}</h5>
-            <div className={s.box}>
+            <h5 className={s.title}>{nft.nftName}</h5>
+            <Link className={s.box} to={`user-page/${user.id}`}>
               <img
                 className={s.userImg}
-                src={highlightedData.userSrc}
-                alt={highlightedData.userAlt}
+                src={user.primarySrc}
+                alt={user.primaryAlt}
               />
-              <p className={s.name}>{highlightedData.userName}</p>
-            </div>
+              <p className={s.name}>{user.nickName}</p>
+            </Link>
           </div>
         </div>
       )}

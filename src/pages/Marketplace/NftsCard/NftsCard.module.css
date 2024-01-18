@@ -1,4 +1,12 @@
+.section {
+  background: var(--background---Secondary);
+  padding: 80px 115px;
+}
+
 .container {
+  margin: 0 auto;
+  max-width: 1050px;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -8,23 +16,17 @@
 .block {
   display: flex;
   flex-direction: column;
+  max-width: 330px;
 }
 
-.box_one {
+.link {
   display: flex;
-  overflow: hidden;
-  border-radius: 20px 20px 0 0;
 }
 
 .nftImg {
   width: 330px;
   height: 296px;
   border-radius: 20px 20px 0 0;
-  transition: 0.3s;
-}
-
-.nftImg:hover {
-  transform: scale(1.05);
 }
 
 .box {
@@ -32,7 +34,7 @@
   padding: 20px 30px 25px 30px;
   border-radius: 0 0 20px 20px;
   flex-direction: column;
-  background: var(--background---Secondary);
+  background: var(--background);
   gap: 25px;
 }
 
@@ -51,13 +53,6 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  text-decoration: none;
-  transition: 0.3s;
-  width: 108px;
-}
-
-.content_one > .holder:hover {
-  transform: scale(0.95);
 }
 
 .userImg {
@@ -98,12 +93,6 @@
   font-family: Space Mono;
 }
 
-@media screen and (max-width: 1280px) {
-  .block:last-of-type {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 834px) {
   .nftImg {
     width: 315px;
@@ -112,11 +101,5 @@
 
   .box {
     padding: 20px 20px 25px 20px;
-  }
-}
-
-@media screen and (max-width: 803px) {
-  .block:last-of-type {
-    display: flex;
   }
 }

@@ -10,17 +10,17 @@ const ArtstNft = ({ nftUsers }) => {
     <>
       {artstNftData && nftUsers && (
         <div className={s.container}>
-          <div className={s.block_one}>
+          <Link className={s.block_one} to={`user-page/${nftUsers.id}`}>
             <img
               className={s.userImg}
               src={nftUsers.primarySrc}
               alt={nftUsers.primaryAlt}
             />
             <p className={s.userName}>{nftUsers.nickName}</p>
-          </div>
+          </Link>
           <h2 className={s.title}>{nftUsers.nfts[0].nftName}</h2>
           <div className={s.block_two}>
-            <Link className={s.link} to={''}>
+            <Link className={s.link} to={'/marketplace'}>
               <img
                 className={s.iconImg}
                 src={artstNftData.btnSrc}

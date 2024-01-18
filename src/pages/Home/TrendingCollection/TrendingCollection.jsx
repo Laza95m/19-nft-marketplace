@@ -5,6 +5,7 @@ import s from './TrendingCollection.module.css';
 
 const TrendingCollection = () => {
   const { trendingCollectionData } = myContext();
+
   return (
     <>
       {!!trendingCollectionData && (

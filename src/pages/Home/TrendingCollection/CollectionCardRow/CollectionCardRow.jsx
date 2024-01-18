@@ -1,19 +1,12 @@
-import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { myContext } from '../../../../context/Context';
 import s from './CollectionCardRow.module.css';
 
 const CollectionCardRow = () => {
-  const { trendingCollectionData, size } = myContext();
+  const { trendingCollectionData } = myContext();
   let collectionCardRowData = trendingCollectionData[1];
 
-  // if (size <= 1280)
-  //   collectionCardRowData = trendingCollectionData[1]?.filter(
-  //     (el) => el.id < 3
-  //   );
-  // if (size <= 834)
-  //   collectionCardRowData = trendingCollectionData[1]?.filter(
-  //     (el) => el.id < 2
-  //   );
+  console.log(collectionCardRowData);
 
   return (
     <>
@@ -21,11 +14,14 @@ const CollectionCardRow = () => {
         {!!collectionCardRowData &&
           collectionCardRowData?.map((el) => (
             <div key={el.id} className={s.container}>
-              <img
-                className={s.primaryImg}
-                src={el.primarySrc}
-                alt={el.primaryAlt}
-              />
+              <Link to={`nft/${el.id}`}>
+                <img
+                  className={s.primaryImg}
+                  src={el.primarySrc}
+                  alt={el.primaryAlt}
+                />
+              </Link>
+
               <div className={s.block}>
                 <img
                   className={s.secondImg}
@@ -41,11 +37,12 @@ const CollectionCardRow = () => {
                   <h5 className={s.count}>{el.count}</h5>
                 </div>
               </div>
+
               <h5 className={s.title}>{el.title}</h5>
-              <div className={s.content}>
+              <Link className={s.content} to={`/user-page/${el.id}`}>
                 <img className={s.userImg} src={el.userSrc} alt={el.userAlt} />
                 <p className={s.name}>{el.userName}</p>
-              </div>
+              </Link>
             </div>
           ))}
       </div>

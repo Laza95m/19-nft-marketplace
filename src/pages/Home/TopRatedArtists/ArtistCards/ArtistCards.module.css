@@ -16,6 +16,7 @@
   padding: 20px;
   border-radius: 20px;
   background: var(--background---Secondary);
+  text-decoration: none;
 }
 
 .block:hover {
@@ -59,20 +60,6 @@
 .title {
   font-size: 22px;
   line-height: 30px;
-}
-
-.box_two {
-  display: flex;
-  gap: 10px;
-  line-height: 22px;
-}
-
-.text_one {
-  color: var(--caption-label-text);
-}
-
-.text_two {
-  font-family: Space Mono;
 }
 
 @media screen and (max-width: 1010px) {
